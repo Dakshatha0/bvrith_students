@@ -27,7 +27,6 @@ class _firstYearFirstSem extends State<FirstYearFirstSem> {
             ),
 
             Text(
-
                 """
                 UNIT-I: Matrices
                 Matrices: Types of Matrices, Symmetric; Hermitian; Skew-symmetric; Skew-Hermitian; orthogonal

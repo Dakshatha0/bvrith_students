@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/year1sem.dart';
+import 'package:bvrith_students/src/department/year/year1sem.dart';
 
 class yearOfstudy extends StatefulWidget {
   const yearOfstudy({Key? key}) : super(key: key);
