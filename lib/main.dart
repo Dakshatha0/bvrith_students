@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'department.dart';
+import 'src/department.dart';
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
