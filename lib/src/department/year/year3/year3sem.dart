@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/department/year/year1/firstyearfirstsemsyllabus.dart';
-import 'package:bvrith_students/src/department/year/year1/firstyearsecondsemsyllabus.dart';
+import 'package:bvrith_students/src/department/year/year3/year3sem1/thirdyearfirstsem.dart';
+import 'package:bvrith_students/src/department/year/year3/year3sem2/thirdyearsecondsem.dart';
 
 class yearOneSem extends StatefulWidget {
   const yearOneSem({Key? key}) : super(key: key);
@@ -20,7 +20,7 @@ class _yearOfFirstYearState extends State<yearOneSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => FirstYearFirstSem()));
+                  MaterialPageRoute(builder: (context) => ThirdYearFirstSem()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
@@ -32,7 +32,7 @@ class _yearOfFirstYearState extends State<yearOneSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => FirstYearSecondSem()));
+                  MaterialPageRoute(builder: (context) => ThirdYearSecondSem()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,

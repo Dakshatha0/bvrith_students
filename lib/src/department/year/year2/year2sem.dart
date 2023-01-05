@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/department/year/year2/secondyearsecondsemsyllabus.dart';
-import 'package:bvrith_students/src/department/year/year2/secondyearfirstsemsyllabus.dart';
+import 'package:bvrith_students/src/department/year/year2/year2sem2/secondyearsecondsemsyllabus.dart';
+import 'package:bvrith_students/src/department/year/year2/year2sem1/secondyearfirstsemsyllabus.dart';
 
 class yearOneSem extends StatefulWidget {
   const yearOneSem({Key? key}) : super(key: key);
