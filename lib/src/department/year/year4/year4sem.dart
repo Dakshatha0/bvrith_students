@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:bvrith_students/src/department/year/year4/year4sem1/fourthyearfirstsem.dart';
 import 'package:bvrith_students/src/department/year/year4/year4sem2/fourthyearsecondsem.dart';
 
-class yearOneSem extends StatefulWidget {
-  const yearOneSem({Key? key}) : super(key: key);
+class yearFourSem extends StatefulWidget {
+  const yearFourSem({Key? key}) : super(key: key);
 
   @override
-  State<yearOneSem> createState() => _yearOfFirstYearState();
+  State<yearFourSem> createState() => _yearOfFourthYearState();
 }
-class _yearOfFirstYearState extends State<yearOneSem> {
+class _yearOfFourthYearState extends State<yearFourSem> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,7 @@ class _yearOfFirstYearState extends State<yearOneSem> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("III-YEAR I-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("I-YEAR I-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -39,7 +39,7 @@ class _yearOfFirstYearState extends State<yearOneSem> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("III-YEAR II-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("I-YEAR II-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
 
         ],

@@ -4,9 +4,9 @@ class FourthYearFirstSem extends StatefulWidget {
   const FourthYearFirstSem({Key? key}) : super(key: key);
 
   @override
-  State<FourthYearFirstSem> createState() => _FourthYearFirstSem();
+  State<FourthYearFirstSem> createState() => _fourthYearFirstSem();
 }
-class _FourthYearFirstSem extends State<FourthYearFirstSem> {
+class _fourthYearFirstSem extends State<FourthYearFirstSem> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
@@ -29,7 +29,7 @@ class _FourthYearFirstSem extends State<FourthYearFirstSem> {
             Text(
 
                 """
-                
+                foyghbnnb
             """)
           ]),
         ),
