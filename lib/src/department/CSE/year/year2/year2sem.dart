@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/department/year/year3/year3sem1/thirdyearfirstsem.dart';
-import 'package:bvrith_students/src/department/year/year3/year3sem2/thirdyearsecondsem.dart';
+import 'package:bvrith_students/src/department/CSE/year/year2/year2sem2/secondyearsecondsemsyllabus.dart';
+import 'package:bvrith_students/src/department/CSE/year/year2/year2sem1/secondyearfirstsemsyllabus.dart';
 
-class yearOneSem extends StatefulWidget {
-  const yearOneSem({Key? key}) : super(key: key);
+class yearTwoSem extends StatefulWidget {
+  const yearTwoSem({Key? key}) : super(key: key);
 
   @override
-  State<yearOneSem> createState() => _yearOfFirstYearState();
+  State<yearTwoSem> createState() => _yearOfSecondYearState();
 }
-class _yearOfFirstYearState extends State<yearOneSem> {
+class _yearOfSecondYearState extends State<yearTwoSem> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,26 +20,26 @@ class _yearOfFirstYearState extends State<yearOneSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => ThirdYearFirstSem()));
+                  MaterialPageRoute(builder: (context) => SecondYearFirstSem()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("III-YEAR I-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("II-YEAR I-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => ThirdYearSecondSem()));
+                  MaterialPageRoute(builder: (context) => SecondYearSecondSem()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("III-YEAR II-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("II-YEAR II-SEM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
 
         ],

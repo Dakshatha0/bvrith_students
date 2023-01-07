@@ -1,4 +1,4 @@
-import 'package:bvrith_students/src/department/year/yearofstudy.dart';
+import 'package:bvrith_students/src/department/CSE/year/yearofstudy.dart';
 import 'package:flutter/material.dart';
 
 class department extends StatefulWidget {
