@@ -18,8 +18,11 @@ class MyApp extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: null,
       body: Center(
-        child: ElevatedButton(
-          child: Text("R18 REGULATION", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+            children: [
+        ElevatedButton(
+          child: Text("R18 REGULATION SYLLABUS", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           onPressed: (){
             Navigator.push(
                 context, MaterialPageRoute(builder: (context) => department())
@@ -31,6 +34,21 @@ class MyApp extends StatelessWidget {
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
           ),
         ),
+              ElevatedButton(
+                child: Text("PLACEMENT MATERIAL", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+                onPressed: (){
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => department())
+                  );
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  padding: EdgeInsets.symmetric(vertical: 8,horizontal: 35),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+                ),
+              ),
+        ],
+      ),
       ),
     );
   }
