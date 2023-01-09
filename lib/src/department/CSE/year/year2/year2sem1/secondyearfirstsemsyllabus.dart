@@ -1,65 +1,88 @@
 import 'package:flutter/material.dart';
 
-class SecondYearFirstSem extends StatefulWidget {
-  const SecondYearFirstSem({Key? key}) : super(key: key);
+import 'Subject/ADE.dart';
+import 'Subject/C++.dart';
+import 'Subject/COA.dart';
+import 'Subject/COSM.dart';
+import 'Subject/DS.dart';
+
+class secondYearFirstSemSubjects extends StatefulWidget {
+  const secondYearFirstSemSubjects({Key? key}) : super(key: key);
 
   @override
-  State<SecondYearFirstSem> createState() => _secondYearFirstSem();
+  State<secondYearFirstSemSubjects> createState() => _yearOfFirstYearSubjectsState();
 }
-class _secondYearFirstSem extends State<SecondYearFirstSem> {
+class _yearOfFirstYearSubjectsState extends State<secondYearFirstSemSubjects> {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Expanded(
-          child: Column(children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text("SYLLABUS",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 32,
-                      )),
-                ],
-              ),
+      backgroundColor: Colors.black,
+      appBar: null,
+      body: Center(child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => ADE()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
+            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ),
+          ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => DS()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+            ),
+            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ),
+          ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => COA()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+            ),
+            child: Text("Applied Physics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ),
+          ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => COSM()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+            ),
+            child: Text("Programming for Problem Solving",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ), ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => CPP()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+            ),
+            child: Text("Engineering Graphics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ),
+        ],
+      )),
 
-            Text(
-
-                """
-                UNIT-I: Matrices
-                Matrices: Types of Matrices, Symmetric; Hermitian; Skew-symmetric; Skew-Hermitian; orthogonal
-                matrices; Unitary Matrices; rank of a matrix by Echelon form and Normal form, Inverse of Non-singular
-                matrices by Gauss-Jordan method; System of linear equations; solving system of Homogeneous and
-                Non-Homogeneous equations. Gauss elimination method; Gauss Seidel Iteration Method.
-                UNIT-II: Eigen values and Eigen vectors
-                Linear Transformation and Orthogonal Transformation: Eigen values and Eigenvectors and their
-                properties: Diagonalization of a matrix; Cayley-Hamilton Theorem (without proof); finding inverse and
-                power of a matrix by Cayley-Hamilton Theorem; Quadratic forms and Nature of the Quadratic Forms;
-                Reduction of Quadratic form to canonical forms by Orthogonal Transformation
-                UNIT-III: Sequences & Series
-                Sequence: Definition of a Sequence, limit; Convergent, Divergent and Oscillatory sequences.
-                Series: Convergent, Divergent and Oscillatory Series; Series of positive terms; Comparison test, p-test,
-                D-Alembert’s ratio test; Raabe’s test; Cauchy’s Integral test; Cauchy’s root test; logarithmic test.
-                Alternating series: Leibnitz test; Alternating Convergent series: Absolute and Conditionally
-                Convergence.
-                UNIT-IV: Calculus
-                Mean value theorems: Rolle’s theorem, Lagrange’s Mean value theorem with their Geometrical
-                Interpretation and applications, Cauchy’s Mean value Theorem. Taylor’s Series.
-                Applications of definite integrals to evaluate surface areas and volumes of revolutions of curves (Only
-                in Cartesian coordinates), Definition of Improper Integral: Beta and Gamma functions and their
-                applications.
-                UNIT-V: Multivariable calculus (Partial Differentiation and applications)
-                Definitions of Limit and continuity.
-                Partial Differentiation; Euler’s Theorem; Total derivative; Jacobian; Functional dependence &
-                independence, Maxima and minima of functions of two variables and three variables using method of
-                Lagrange multipliers.
-            """)
-          ]),
-        ),
-      ),
     );
   }
 }

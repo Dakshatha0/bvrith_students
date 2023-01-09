@@ -10,10 +10,10 @@ class _Mathematics1 extends State<Mathematics1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.black,
       appBar: null,
-      body: Container(
-        alignment: Alignment.center,
+      body: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -23,10 +23,7 @@ class _Mathematics1 extends State<Mathematics1> {
                   Expanded(
                       child: SingleChildScrollView(
                     scrollDirection: Axis.vertical,
-
-                    child: Text('''UNIT - I: Matrices\n
-                                
-                                ''', textAlign: TextAlign.center,
+                    child: Text("UNIT - I: Matrices\n", textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 25,
                         color: Colors.lightBlue,
@@ -40,7 +37,22 @@ class _Mathematics1 extends State<Mathematics1> {
                         wordSpacing: 4.0
                       ),),
                     )
-                ),Expanded(
+                ),
+                Expanded(
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.vertical,
+                      child: Text('''Matrices: Types of Matrices, Symmetric; Hermitian; Skew-symmetric; Skew-Hermitian;
+                                  orthogonal matrices; Unitary Matrices; rank of a matrix by Echelon form and Normal form,
+                                  Inverse of Non-singular matrices by Gauss-Jordan method; System of linear equations;
+                                  solving system of Homogeneous and Non-Homogeneous equations. Gauss elimination
+                                  method; Gauss Seidel Iteration Method.''',
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                        ),),
+                    )
+                ),
+                Expanded(
                     child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
                       child: Text("UNIT - II: Eigen Value and Vectors", textAlign: TextAlign.center,
@@ -111,10 +123,7 @@ class _Mathematics1 extends State<Mathematics1> {
                             wordSpacing: 4.0
                         ),),
                     )
-                )
-                  //   Container(
-                  //   child: Text("Welcome brother"),
-                  // )
+                ),
                 // ),
               ],
             )

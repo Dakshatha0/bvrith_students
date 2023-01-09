@@ -20,7 +20,7 @@ class _yearOfFourthYearState extends State<yearFourSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => FourthYearFirstSem()));
+                  MaterialPageRoute(builder: (context) => fourthYearFirstSemSubjects()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,

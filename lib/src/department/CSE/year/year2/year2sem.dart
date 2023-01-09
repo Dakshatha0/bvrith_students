@@ -20,7 +20,7 @@ class _yearOfSecondYearState extends State<yearTwoSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => SecondYearFirstSem()));
+                  MaterialPageRoute(builder: (context) => secondYearFirstSemSubjects()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
@@ -32,7 +32,7 @@ class _yearOfSecondYearState extends State<yearTwoSem> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => SecondYearSecondSem()));
+                  MaterialPageRoute(builder: (context) => secondYearSecondSemSubjects()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
