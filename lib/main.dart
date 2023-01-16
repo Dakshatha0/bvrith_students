@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Scaffold(
       drawer: sidemenu(),
       backgroundColor: Colors.black,
@@ -26,6 +26,17 @@ class MyApp extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
             children: [
+              FloatingActionButton(
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => sidemenu())
+                  );
+                },
+                child: const Icon(Icons.home),
+                backgroundColor: Colors.white,
+                focusColor: Colors.white,
+                foregroundColor: Colors.black,
+              ),
         ElevatedButton(
           child: Text("R18 REGULATION SYLLABUS", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           onPressed: (){
@@ -52,17 +63,6 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
                 ),
               ),
-              FloatingActionButton(
-                onPressed: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => sidemenu())
-                  );
-              },
-                child: const Icon(Icons.home),
-                backgroundColor: Colors.white,
-                focusColor: Colors.white,
-                foregroundColor: Colors.black,
-              )
         ],
       ),
       ),
