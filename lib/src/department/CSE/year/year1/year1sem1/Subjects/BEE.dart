@@ -15,7 +15,16 @@ class _BEE extends State<BEE> {
       body: Center(child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-
+          RichText(
+            text:TextSpan(
+              text: 'Hello',
+              style: DefaultTextStyle.of(context).style,
+              children: const <TextSpan>[
+                TextSpan(text: 'bold', style: TextStyle(fontWeight: FontWeight.bold)),
+                TextSpan(text: 'world!'),
+              ]
+            )
+          )
         ],
       )),
 

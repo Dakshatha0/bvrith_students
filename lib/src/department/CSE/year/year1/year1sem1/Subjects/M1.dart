@@ -18,7 +18,7 @@ class _Mathematics1 extends State<Mathematics1> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Row(
-              children: <Widget>[
+              children:[
                 // Expanded(
                   Expanded(
                       child: SingleChildScrollView(
