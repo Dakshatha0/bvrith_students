@@ -30,7 +30,7 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Computer Networks",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -42,7 +42,7 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Formal Languages and Automata Theory",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -54,7 +54,7 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Applied Physics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Software Engineering",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -66,7 +66,7 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Programming for Problem Solving",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Web Technologies",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),
