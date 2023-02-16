@@ -1,9 +1,10 @@
+import 'package:bvrith_students/src/department/CSE%20AI-ML/year/year1/year1sem1/Subjects/BEE.dart';
+import 'package:bvrith_students/src/department/CSE%20AI-ML/year/year1/year1sem1/Subjects/Chemistry.dart';
 import 'package:flutter/material.dart';
 
-import 'Subjects/AP.dart';
-import 'Subjects/EG.dart';
+
 import 'Subjects/M-II.dart';
-import 'Subjects/PPS.dart';
+
 
 
 class firstYearSecondSemSubjects extends StatefulWidget {
@@ -36,37 +37,37 @@ class _yearOfFirstYearSubjectsState extends State<firstYearSecondSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => AppliedPhysics()));
+                  MaterialPageRoute(builder: (context) => BEE()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Applied Physics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Basic Electrical Electronics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => PPS()));
+                  MaterialPageRoute(builder: (context) => Chemistry()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Programming for Problem Solving",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Chemistry",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => EG()));
+                  MaterialPageRoute(builder: (context) => Chemistry()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Engineering Graphics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Chemistry",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),
