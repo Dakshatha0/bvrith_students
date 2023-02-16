@@ -63,7 +63,7 @@ class _departmentState extends State<department> {
                 padding: EdgeInsets.symmetric(vertical: 8,horizontal: 35),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
               ),
-              child: Text("CSE AI/ML",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+              child: Text("CSE AI-ML",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
             ),
             ElevatedButton(
               onPressed: (){
