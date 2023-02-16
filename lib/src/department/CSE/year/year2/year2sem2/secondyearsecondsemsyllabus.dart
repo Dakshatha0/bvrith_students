@@ -31,7 +31,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("BEFA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -43,7 +43,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("DBMS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -55,7 +55,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Applied Physics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("DM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -67,7 +67,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Programming for Problem Solving",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Java",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
@@ -78,7 +78,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Engineering Graphics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Operating Systems",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),
