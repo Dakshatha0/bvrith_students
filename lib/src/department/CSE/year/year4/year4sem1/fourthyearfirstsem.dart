@@ -28,7 +28,7 @@ class _yearOfFirstYearSubjectsState extends State<fourthYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("CNS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -40,7 +40,7 @@ class _yearOfFirstYearSubjectsState extends State<fourthYearFirstSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Mathematics-II",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Data Mining",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
 
         ],
