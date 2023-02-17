@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CN.dart';
-import 'Subjects/FLAT.dart';
-import 'Subjects/SE.dart';
-import 'Subjects/WT.dart';
+import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/CN.dart';
+import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/FLAT.dart';
+// import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/SE.dart';
+import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/WT.dart';
+
+import '../../../../CSE AI-ML/year/year3/year3sem1/Subjects/FLAT.dart';
 
 class thirdYearFirstSemSubjects extends StatefulWidget {
   const thirdYearFirstSemSubjects({Key? key}) : super(key: key);
