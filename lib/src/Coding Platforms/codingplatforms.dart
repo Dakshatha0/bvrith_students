@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class resourcesforcollege extends StatefulWidget {
-  const resourcesforcollege({Key? key}) : super(key: key);
+class codingplatforms extends StatefulWidget {
+  const codingplatforms({Key? key}) : super(key: key);
 
   @override
-  State<resourcesforcollege> createState() => _resourcesforcollegeState();
+  State<codingplatforms> createState() => _codingplatformsState();
 }
 
-class _resourcesforcollegeState extends State<resourcesforcollege> {
+class _codingplatformsState extends State<codingplatforms> {
   @override
   Widget build(BuildContext context) {
     Future<dynamic> openBrowserURL({
@@ -34,9 +34,9 @@ class _resourcesforcollegeState extends State<resourcesforcollege> {
         mainAxisSize: MainAxisSize.min,
         children: [
           ElevatedButton(
-            child: Text("GEEKS FOR GEEKS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("LEETCODE",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
             onPressed: () async {
-              final url = 'https://www.geeksforgeeks.org/';
+              final url = 'https://leetcode.com/';
               openBrowserURL(url: url, inApp: true);
             },
             style: ElevatedButton.styleFrom(
@@ -46,9 +46,9 @@ class _resourcesforcollegeState extends State<resourcesforcollege> {
             ),
           ),
           ElevatedButton(
-            child: Text("TUTORIALS POINT",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("CODECHEF",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
             onPressed: () async {
-              final url = 'https://www.tutorialspoint.com/index.htm';
+              final url = 'https://www.codechef.com/';
               openBrowserURL(url: url, inApp: false);
             },
             style: ElevatedButton.styleFrom(
@@ -58,9 +58,9 @@ class _resourcesforcollegeState extends State<resourcesforcollege> {
             ),
           ),
           ElevatedButton(
-            child: Text("JAVAT POINT",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("CODE FORCES",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
             onPressed: () async {
-              final url = 'https://www.javatpoint.com/';
+              final url = 'https://codeforces.com/';
               openBrowserURL(url: url, inApp: false);
             },
             style: ElevatedButton.styleFrom(
@@ -70,9 +70,9 @@ class _resourcesforcollegeState extends State<resourcesforcollege> {
             ),
           ),
           ElevatedButton(
-            child: Text("LOVE BABBAR 450 SHEET",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("HACKER RANK",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
             onPressed: () async {
-              final url = 'https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/';
+              final url = 'https://www.hackerrank.com/';
               openBrowserURL(url: url, inApp: false);
             },
             style: ElevatedButton.styleFrom(
