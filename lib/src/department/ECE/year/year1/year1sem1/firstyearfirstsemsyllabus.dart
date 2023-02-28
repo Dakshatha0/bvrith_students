@@ -1,8 +1,10 @@
-import 'package:bvrith_students/src/department/CSE%20AI-ML/year/year1/year1sem2/Subjects/AP.dart';
-import 'package:bvrith_students/src/department/CSE%20AI-ML/year/year1/year1sem2/Subjects/EG.dart';
-import 'package:bvrith_students/src/department/CSE%20AI-ML/year/year1/year1sem2/Subjects/PPS.dart';
+
 import 'package:flutter/material.dart';
 import 'package:bvrith_students/src/department/ECE/year/year1/year1sem1/Subjects/M1.dart';
+import 'Subjects/EG.dart';
+import 'Subjects/AP.dart';
+import 'Subjects/PPS.dart';
+
 
 class firstYearfirstSemSubjects extends StatefulWidget {
   const firstYearfirstSemSubjects({Key? key}) : super(key: key);
