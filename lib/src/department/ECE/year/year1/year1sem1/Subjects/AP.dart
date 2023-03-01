@@ -10,6 +10,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
