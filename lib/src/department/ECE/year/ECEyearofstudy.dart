@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/department/IT/year/year1/year1sem.dart';
-import 'package:bvrith_students/src/department/IT/year/year2/year2sem.dart';
-import 'package:bvrith_students/src/department/IT/year/year3/year3sem.dart';
-import 'package:bvrith_students/src/department/IT/year/year4/year4sem.dart';
-class yearOfstudy extends StatefulWidget {
-  const yearOfstudy({Key? key}) : super(key: key);
+import 'package:bvrith_students/src/department/ECE/year/year1/year1sem.dart';
+import 'package:bvrith_students/src/department/ECE/year/year2/year2sem.dart';
+import 'package:bvrith_students/src/department/ECE/year/year3/year3sem.dart';
+import 'package:bvrith_students/src/department/ECE/year/year4/year4sem.dart';
+class ECEyearOfstudy extends StatefulWidget {
+  const ECEyearOfstudy({Key? key}) : super(key: key);
 
   @override
-  State<yearOfstudy> createState() => _yearOfStudyState();
+  State<ECEyearOfstudy> createState() => _ECEyearOfStudyState();
 }
-class _yearOfStudyState extends State<yearOfstudy> {
+class _ECEyearOfStudyState extends State<ECEyearOfstudy> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,4 +94,4 @@ class _yearOfStudyState extends State<yearOfstudy> {
 // },
 // ),
 //
-// )
+//

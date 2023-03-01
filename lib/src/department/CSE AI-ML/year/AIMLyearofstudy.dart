@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:bvrith_students/src/department/EEE/year/year1/year1sem.dart';
-import 'package:bvrith_students/src/department/EEE/year/year2/year2sem.dart';
-import 'package:bvrith_students/src/department/EEE/year/year3/year3sem.dart';
-import 'package:bvrith_students/src/department/EEE/year/year4/year4sem.dart';
-class yearOfstudy extends StatefulWidget {
-  const yearOfstudy({Key? key}) : super(key: key);
+import 'package:bvrith_students/src/department/CSE AI-ML/year/year1/year1sem.dart';
+import 'package:bvrith_students/src/department/CSE AI-ML/year/year2/year2sem.dart';
+import 'package:bvrith_students/src/department/CSE AI-ML/year/year3/year3sem.dart';
+import 'package:bvrith_students/src/department/CSE AI-ML/year/year4/year4sem.dart';
+class AIMLyearOfstudy extends StatefulWidget {
+  const AIMLyearOfstudy({Key? key}) : super(key: key);
 
   @override
-  State<yearOfstudy> createState() => _yearOfStudyState();
+  State<AIMLyearOfstudy> createState() => _AIMLyearOfStudyState();
 }
-class _yearOfStudyState extends State<yearOfstudy> {
+class _AIMLyearOfStudyState extends State<AIMLyearOfstudy> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
