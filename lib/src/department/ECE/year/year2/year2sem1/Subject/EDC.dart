@@ -16,7 +16,7 @@ class _EDC extends State<EDC> {
         mainAxisSize: MainAxisSize.min,
         children: [
         Text(
-        'UNIT-I:',
+        'UNIT-I:Diode and Applications',
         style: TextStyle(
           fontSize: MediaQuery.of(context).size.width / 30,
           fontWeight: FontWeight.bold,
@@ -28,14 +28,14 @@ class _EDC extends State<EDC> {
           Container(
             width: MediaQuery.of(context).size.width * 0.8,
             child: Text(
-              "Object-Oriented Thinking: Different paradigms for problem solving, need for OOP paradigm, differences between OOP and Procedure oriented programming, Overview of OOP concepts-Abstraction, Encapsulation, Inheritance and Polymorphism.\n C++ Basics: Structure of a C++ program, Data types, Declaration of variables, Expressions, Operators, Operator Precedence, Evaluation of expressions, Type conversions, Pointers, Arrays, Pointers and Arrays, Strings, Structures, References. Flow control statement- if, switch, while, for, do, break,continue, goto statements. Functions - Scope of variables, Parameter passing, Default arguments,inline functions, Recursive functions, Pointers to functions. Dynamic memory allocation and de-allocation operators-new and delete, Preprocessor directives.  ",
-              style: TextStyle(
+              "Diode - Static and Dynamic resistances, Equivalent circuit, Load line analysis,Diffusion and Transition Capacitances, Diode Applications: Switch-Switching times. Rectifier - Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier, Rectifiers with Capacitive and Inductive Filters, Clippers-Clipping at two independent levels, Clamper-Clamping Circuit Theorem, Clamping Operation, Types of Clampers",
+               style: TextStyle(
                 fontSize: 16,
               ),
             ),
           ),
           Text(
-            'UNIT-II:  ',
+            'UNIT-II:Bipolar Junction Transistor (BJT)  ',
             style: TextStyle(
               fontSize: MediaQuery.of(context).size.width / 30,
               fontWeight: FontWeight.bold,
@@ -47,7 +47,7 @@ class _EDC extends State<EDC> {
           Container(
             width: MediaQuery.of(context).size.width * 0.8,
             child: Text(
-              "C++ Classes and Data Abstraction: Class definition, Class structure, Class objects, Class scope, this pointer, Friends to a class, Static class members, Constant member functions, Constructors and Destructors, Dynamic creation and destruction of objects, Data abstraction, ADT and information hiding.",
+              "Principle of Operation, Common Emitter, Common Base and Common Collector Configurations, Transistor as a switch, switching times, Transistor Biasing and Stabilization - Operating point, DC & AC load lines, Biasing - Fixed Bias, Self Bias, Bias Stability, Bias Compensation using Diodes.",
               style: TextStyle(
                 fontSize: 16,
               ),
