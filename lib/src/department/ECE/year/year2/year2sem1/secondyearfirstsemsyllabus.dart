@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'Subject/ADE.dart';
-import 'Subject/C++.dart';
-import 'Subject/COA.dart';
-import 'Subject/COSM.dart';
-import 'Subject/DS.dart';
+import 'Subject/EDC.dart';
+import 'Subject/NATL.dart';
+import 'Subject/PTSP.dart';
+import 'Subject/SAS.dart';
+import 'Subject/DSD.dart';
 
 class secondYearFirstSemSubjects extends StatefulWidget {
   const secondYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -24,61 +24,61 @@ class _yearOfFirstYearSubjectsState extends State<secondYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => ADE()));
+                  MaterialPageRoute(builder: (context) => EDC()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("ADE",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Electronic Devices and Circuits",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DS()));
+                  MaterialPageRoute(builder: (context) => NATL()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Data Structures",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Network Analysis and Transmission Lines",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => COA()));
+                  MaterialPageRoute(builder: (context) => DSD()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("COA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Digital System Design",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => COSM()));
+                  MaterialPageRoute(builder: (context) => SAS()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("COSM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text(" Signals and Systems",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CPP()));
+                  MaterialPageRoute(builder: (context) => PTSP()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("CPP",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Probability Theory and Stochastic Processes",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),

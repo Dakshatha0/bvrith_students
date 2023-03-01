@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class DS extends StatefulWidget {
-  const DS({Key? key}) : super(key: key);
+class PTSP extends StatefulWidget {
+  const PTSP({Key? key}) : super(key: key);
 
   @override
-  _DS createState() => _DS();
+  _PTSP createState() => _PTSP();
 }
-class _DS extends State<DS> {
+class _PTSP extends State<PTSP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class _DS extends State<DS> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I: Introduction to Data Structures',
+                'UNIT-I:',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class _DS extends State<DS> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Introduction to Data Structures, abstract data types, Linear list – singly linked list implementation, insertion, deletion and searching operations on linear list, Stacks-Operations, array and linked representations of stacks, stack applications, Queues-operations, array and linked representations. ",
+                  " Digital Computers: Introduction, Block diagram of Digital Computer, Definition of Computer Organization, Computer Design and Computer Architecture.\n Register Transfer Language and Micro operations: Register Transfer language, Register Transfer, Bus and memory transfers, Arithmetic Micro operations, logic micro operations, shift micro operations,  Arithmetic logic shift unit.\n Basic Computer Organization and Design: Instruction codes, Computer Registers Computer instructions, Timing and Control, Instruction cycle, Memory Reference Instructions, Input – Output and Interrupt. ",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -47,8 +47,10 @@ class _DS extends State<DS> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Dictionaries: linear list representation, skip list representation, operations - insertion, deletion and searching.\n Hash Table Representation: hash functions, collision resolution-separate chaining, open addressing- linear probing, quadratic probing, double hashing, rehashing, extendible hashing.",
-                  style: TextStyle(fontSize: 16,),
+                  "Microprogrammed Control: Control memory, Address sequencing, micro program example, design of control unit \n Central Processing Unit: General Register Organization, Instruction Formats, Addressing modes, Data Transfer and Manipulation, Program Control.",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
                 ),
               ),
               Text(
@@ -64,7 +66,7 @@ class _DS extends State<DS> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Search Trees: Binary Search Trees, Definition, Implementation, Operations- Searching, Insertion and Deletion, AVL Trees, Definition, Height of an AVL Tree, Operations – Insertion, Deletion and Searching,  Red –Black, Splay Trees.",
+                  "Data Representation: Data types, Complements, Fixed Point Representation, Floating Point Representation.\nComputer Arithmetic: Addition and subtraction, multiplication Algorithms, Division Algorithms, Floating – point Arithmetic operations. Decimal Arithmetic unit, Decimal Arithmetic operations.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -83,7 +85,7 @@ class _DS extends State<DS> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Graphs: Graph Implementation Methods. Graph Traversal Methods. \n Sorting: Heap Sort, External Sorting- Model for external sorting, Merge Sort.",
+                  "Input-Output Organization: Input-Output Interface, Asynchronous data transfer, Modes of Transfer,Priority Interrupt Direct memory Access.\n Memory Organization: Memory Hierarchy, Main Memory, Auxiliary memory, Associate Memory, Cache Memory.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -102,7 +104,7 @@ class _DS extends State<DS> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Pattern Matching and Tries: Pattern matching algorithms-Brute force, the Boyer –Moore algorithm, the Knuth-Morris-Pratt algorithm, Standard Tries, Compressed Tries, Suffix tries.",
+                  "Reduced Instruction Set Computer: CISC Characteristics, RISC Characteristics. \n Pipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline, RISC Pipeline, Vector Processing, Array Processor.\n Multi Processors: Characteristics of Multiprocessors, Interconnection Structures, Interprocessor arbitration, Interprocessor communication and synchronization, Cache Coherence.",
                   style: TextStyle(
                     fontSize: 16,
                   ),

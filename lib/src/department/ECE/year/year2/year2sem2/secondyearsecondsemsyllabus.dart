@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/BEFA.dart';
-import 'Subjects/DBMS.dart';
-import 'Subjects/DM.dart';
-import 'Subjects/Java.dart';
-import 'Subjects/OS.dart';
+import 'Subjects/LNC.dart';
+import 'Subjects/LICA.dart';
+import 'Subjects/ADC.dart';
+import 'Subjects/EFW.dart';
+import 'Subjects/ECA.dart';
 
 class secondYearSecondSemSubjects extends StatefulWidget {
   const secondYearSecondSemSubjects({Key? key}) : super(key: key);

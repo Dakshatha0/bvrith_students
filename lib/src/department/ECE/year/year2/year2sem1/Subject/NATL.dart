@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class CPP extends StatefulWidget {
-  const CPP({Key? key}) : super(key: key);
+class NATL extends StatefulWidget {
+  const NATL({Key? key}) : super(key: key);
 
   @override
-  _CPP createState() => _CPP();
+  _NATL createState() => _NATL();
 }
-class _CPP extends State<CPP> {
+class _NATL extends State<NATL> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
