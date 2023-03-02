@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-class CG extends StatefulWidget {
-  const CG({Key? key}) : super(key: key);
+class PR extends StatefulWidget {
+  const PR({Key? key}) : super(key: key);
 
   @override
-  _CG createState() => _CG();
+  _PR createState() => _PR();
 }
-class _CG extends State<CG> {
+class _PR extends State<PR> {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(

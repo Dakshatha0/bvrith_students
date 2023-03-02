@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class CG extends StatefulWidget {
-  const CG({Key? key}) : super(key: key);
+class DS extends StatefulWidget {
+  const DS({Key? key}) : super(key: key);
 
   @override
-  _CG createState() => _CG();
+  _DS createState() => _DS();
 }
-class _CG extends State<CG> {
+class _DS extends State<DS> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
