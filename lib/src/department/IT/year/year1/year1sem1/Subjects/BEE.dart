@@ -12,7 +12,7 @@ class BEE extends StatelessWidget {
                 Text(
                   'UNIT-I: D.C. Circuits',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width / 30,
+                    fontSize: MediaQuery.of(context).size.width / 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.orange,
                   ),
@@ -33,7 +33,7 @@ class BEE extends StatelessWidget {
                 Text(
                   'UNIT-II: A.C. Circuits ',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width / 30,
+                    fontSize: MediaQuery.of(context).size.width / 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.orange,
                   ),
@@ -54,7 +54,7 @@ class BEE extends StatelessWidget {
                 Text(
                   'UNIT-III: Transformers ',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width / 30,
+                    fontSize: MediaQuery.of(context).size.width / 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.orange,
                   ),
@@ -75,7 +75,7 @@ class BEE extends StatelessWidget {
                 Text(
                   'UNIT-IV: Electrical Machines',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width / 30,
+                    fontSize: MediaQuery.of(context).size.width / 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.orange,
                   ),
@@ -96,7 +96,7 @@ class BEE extends StatelessWidget {
                 Text(
                   'Unit-V: Electrical Installations',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width / 30,
+                    fontSize: MediaQuery.of(context).size.width / 36,
                     fontWeight: FontWeight.bold,
                     color: Colors.orange,
                   ),

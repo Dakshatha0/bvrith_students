@@ -17,7 +17,7 @@ class _Chemistry extends State<Chemistry> {
               Text(
                 'UNIT - I:Molecular structure and Theories of Bonding',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -38,7 +38,7 @@ class _Chemistry extends State<Chemistry> {
               Text(
                 'UNIT-II: Water and its treatment ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -59,7 +59,7 @@ class _Chemistry extends State<Chemistry> {
               Text(
                 'UNIT-III: Electrochemistry and corrosion: ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -80,7 +80,7 @@ class _Chemistry extends State<Chemistry> {
               Text(
                 'UNIT-IV: \nStereochemistry, Reaction Mechanism and synthesis of drug molecules: ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -101,7 +101,7 @@ class _Chemistry extends State<Chemistry> {
               Text(
                 'Unit-V: Spectroscopic techniques and applications:',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),

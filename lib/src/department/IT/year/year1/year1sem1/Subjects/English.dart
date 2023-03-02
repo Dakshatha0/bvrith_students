@@ -18,7 +18,7 @@ class _English extends State<English> {
               Text(
                 'UNIT-I:The Raman Effect’ from the prescribed textbook ‘English for Engineers’ published by Cambridge University Press.',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -39,7 +39,7 @@ class _English extends State<English> {
               Text(
                 'UNIT-II: ‘Ancient Architecture in India’ from the prescribed textbook ‘English for Engineers’ publishedby Cambridge University Press. ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -60,7 +60,7 @@ class _English extends State<English> {
               Text(
                 'UNIT-III: ‘Blue Jeans’ from the prescribed textbook ‘English for Engineers’ published by CambridgeUniversity Press. ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -81,7 +81,7 @@ class _English extends State<English> {
               Text(
                 'UNIT-IV:‘What Should You Be Eating’ from the prescribed textbook ‘English for Engineers’ published by Cambridge University Press. ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -102,7 +102,7 @@ class _English extends State<English> {
               Text(
                 'Unit-V: ‘How a Chinese Billionaire Built Her Fortune’ from the prescribed textbook ‘English for Engineers’ published by Cambridge University Press.',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),

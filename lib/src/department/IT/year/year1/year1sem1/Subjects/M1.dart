@@ -18,7 +18,7 @@ class _Mathematics1 extends State<Mathematics1> {
               Text(
                 'UNIT-I: Matrices',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -39,7 +39,7 @@ class _Mathematics1 extends State<Mathematics1> {
               Text(
                 'UNIT-II: Eigen values and Eigen vectors  ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -60,7 +60,7 @@ class _Mathematics1 extends State<Mathematics1> {
               Text(
                 'UNIT-III:Sequences & Series  ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -81,7 +81,7 @@ class _Mathematics1 extends State<Mathematics1> {
               Text(
                 'UNIT-IV: Calculus',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
@@ -102,7 +102,7 @@ class _Mathematics1 extends State<Mathematics1> {
               Text(
                 'Unit-V:Multivariable calculus (Partial Differentiation and applications) ',
                 style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 30,
+                  fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
                   color: Colors.orange,
                 ),
