@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'Subject/ADE.dart';
-import 'Subject/C++.dart';
-import 'Subject/COA.dart';
-import 'Subject/COSM.dart';
-import 'Subject/DS.dart';
+import 'Subject/EngineeringMechanics.dart';
+import 'Subject/ECA.dart';
+import 'Subject/EM1.dart';
+import 'Subject/EF.dart';
+import 'Subject/AE.dart';
 
 class secondYearFirstSemSubjects extends StatefulWidget {
   const secondYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -24,61 +24,61 @@ class _yearOfFirstYearSubjectsState extends State<secondYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => ADE()));
+                  MaterialPageRoute(builder: (context) => EngineeringMechanics()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("ADE",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Engineering Mechanics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DS()));
+                  MaterialPageRoute(builder: (context) => AE()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Data Structures",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Analog Electronics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => COA()));
+                  MaterialPageRoute(builder: (context) => EM1()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("COA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Electrical Machines - I",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => COSM()));
+                  MaterialPageRoute(builder: (context) => EF()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("COSM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Electromagnetic Fields",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CPP()));
+                  MaterialPageRoute(builder: (context) => ECA()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("CPP",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Electrical Circuit Analysis",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),
