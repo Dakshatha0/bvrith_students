@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
-class EG extends StatefulWidget {
-  const EG({Key? key}) : super(key: key);
+class PR extends StatefulWidget {
+  const PR({Key? key}) : super(key: key);
 
   @override
-  _EG createState() => _EG();
+  _PR createState() => _PR();
 }
-class _EG extends State<EG> {
+class _PR extends State<PR> {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -29,7 +30,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Introduction to Engineering Drawing: Principles of Engineering Graphics and their Significance, Conic Sections including the Rectangular Hyperbola – General method only. Cycloid, Epicycloid and Hypocycloid, Scales – Plain & Diagonal.",
+                  "Introduction: What is Pattern Recognition, Data Sets for Pattern Recognition, Different Paradigms for Pattern Recognition. Representation: Data Structures for Pattern Representation, Representation of Clusters, Proximity Measures, Size of Patterns, Abstractions of the Data Set, Feature Extraction, Feature Selection, Evaluation of Classifier, Evaluation of Clustering",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -50,7 +51,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Orthographic Projections: Principles of Orthographic Projections – Conventions – Projections of Points and Lines, Projections of Plane regular geometric figures. Auxiliary Planes.",
+                  "Nearest Neighbor Based Classifier: Nearest Neighbor Algorithm, Variants of the NN Algorithm use of the Nearest Neighbor Algorithm for Transaction Databases, Efficient Algorithms, Data Reduction, Prototype Selection. Bayes Classifier: Bayes Theorem, Minimum Error Rate Classifier, Estimation of Probabilities, Comparison with the NNC, Naïve Bayes Classifier, Bayesian Belief Network.",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -71,7 +72,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Projections of Regular Solids – Auxiliary Views - Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone – Auxiliary views – Sections of Sphere",
+                  "Hidden Markov Models: Markov Models for Classification, Hidden Morkov Models, Classification using HMMs. Decision Trees: Introduction, Decision Tree for Pattern Classification, Construction of Decision Trees, Splitting at the Nodes, Overfitting and Pruning, Examples of Decision Tree Induction. ",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -92,7 +93,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Development of Surfaces of Right Regular Solids – Prism, Cylinder, Pyramid and Cone, Intersection of Solids: Intersection of – Prism vs Prism- Cylinder Vs Cylinder",
+                  "Support Vector Machines: Introduction, Learning the Linear Discriminant Functions, Neural Networks, SVM for Classification. Combination of Classifiers: Introduction, Methods for Constructing Ensembles of Classifiers, Methods for Combining Classifiers.",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -113,7 +114,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Isometric Projections: Principles of Isometric Projection – Isometric Scale – Isometric Views – Conventions – Isometric Views of Lines, Plane Figures, Simple and Compound Solids – Isometric Projection of objects having non- isometric lines. Isometric Projection of Spherical Parts. Conversion of Isometric Views to Orthographic Views and Vice-versa –Conventions Introduction to CAD: (For Internal Evaluation Weightage only): Introduction to CAD Software Package Commands. - Free Hand Sketches of 2D- Creation of 2D Sketches by CAD Package",
+                  "Clustering: Why is Clustering Important, Hierarchical Algorithms, Partitional Clustering, Clustering Large Data Sets. An Application-Hand Written Digit Recognition: Description of the Digit Data, Preprocessing of Data, Classification Algorithms, Selection of Representative Patterns, Results.",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,

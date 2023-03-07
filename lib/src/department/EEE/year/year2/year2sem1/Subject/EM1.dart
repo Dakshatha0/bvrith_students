@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class COA extends StatefulWidget {
-  const COA({Key? key}) : super(key: key);
+class EM1 extends StatefulWidget {
+  const EM1({Key? key}) : super(key: key);
 
   @override
-  _COA createState() => _COA();
+  _EM1 createState() => _EM1();
 }
-class _COA extends State<COA> {
+class _EM1 extends State<EM1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class _COA extends State<COA> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I:',
+                'UNIT-I:D.C. Generators:',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -28,14 +28,14 @@ class _COA extends State<COA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Digital Computers: Introduction, Block diagram of Digital Computer, Definition of Computer Organization, Computer Design and Computer Architecture.\n Register Transfer Language and Micro operations: Register Transfer language, Register Transfer, Bus and memory transfers, Arithmetic Micro operations, logic micro operations, shift micro operations,  Arithmetic logic shift unit.\n Basic Computer Organization and Design: Instruction codes, Computer Registers Computer instructions, Timing and Control, Instruction cycle, Memory Reference Instructions, Input – Output and Interrupt. ",
+                  "Principle of operation – Action of commutator – constructional features – armature windings – lap and wave windings – simplex and multiplex windings – use of laminated armature – E.M.F Equation. Armature reaction – Cross magnetizing and de-magnetizing AT/pole – compensating winding – commutation – reactance voltage – methods of improving commutation. Methods of Excitation– separately excited and self-excited generators – build-up of E.M.F - critical field resistance and critical speed - causes for failure to self-excite and remedial measures. Load characteristics of shunt, series and compound generators",
                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
               ),
               Text(
-                'UNIT-II:  ',
+                'UNIT-II: D.C Motors: ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -47,14 +47,14 @@ class _COA extends State<COA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Microprogrammed Control: Control memory, Address sequencing, micro program example, design of control unit \n Central Processing Unit: General Register Organization, Instruction Formats, Addressing modes, Data Transfer and Manipulation, Program Control.",
+                  "Principle of operation – Back E.M.F. - Torque equation – characteristics and application of shunt, series and compound motors – Armature reaction and commutation. Speed control of D.C.Motors - Armature voltage and field flux control methods. Motor starters (3-point and 4-point starters) Testing of D.C. machines - Losses – Constant & Variable losses – calculation of efficiency – condition for maximum efficiency. ",
                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
               ),
               Text(
-                'UNIT-III:  ',
+                'UNIT-III: Testing of DC Machines: ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -66,14 +66,14 @@ class _COA extends State<COA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Data Representation: Data types, Complements, Fixed Point Representation, Floating Point Representation.\nComputer Arithmetic: Addition and subtraction, multiplication Algorithms, Division Algorithms, Floating – point Arithmetic operations. Decimal Arithmetic unit, Decimal Arithmetic operations.",
+                  "Methods of Testing – direct, indirect, and regenerative testing – Brake test– Swinburne’s test – Hopkinson’s test – Field’s test - separation of stray losses in a d.c. motor test.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
               ),
               Text(
-                'UNIT-IV: ',
+                'UNIT-IV: Single Phase Transformers:',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -85,14 +85,14 @@ class _COA extends State<COA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Input-Output Organization: Input-Output Interface, Asynchronous data transfer, Modes of Transfer,Priority Interrupt Direct memory Access.\n Memory Organization: Memory Hierarchy, Main Memory, Auxiliary memory, Associate Memory, Cache Memory.",
+                  "Types - constructional details-minimization of hysteresis and eddy current losses- EMF equation - operation on no load and on load - phasor diagrams Equivalent circuit - losses and efficiency – regulation - All day efficiency - effect of variations of frequency & supply voltage on iron losses.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
               ),
               Text(
-                'Unit-V: ',
+                'Unit-V: Testing of Transformers and Poly-Phase Transformers: ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -104,7 +104,7 @@ class _COA extends State<COA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Reduced Instruction Set Computer: CISC Characteristics, RISC Characteristics. \n Pipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline, RISC Pipeline, Vector Processing, Array Processor.\n Multi Processors: Characteristics of Multiprocessors, Interconnection Structures, Interprocessor arbitration, Interprocessor communication and synchronization, Cache Coherence.",
+                  "OC and SC tests - Sumpner’s test -predetermination of efficiency and regulation-separation of losses test-parallel operation with equal and unequal voltage ratios - auto transformers-equivalent circuit - comparison with two winding transformers. Poly-phase transformers – Poly-phase connections - Y/Y, Y/, /Y, / and open",
                   style: TextStyle(
                     fontSize: 16,
                   ),

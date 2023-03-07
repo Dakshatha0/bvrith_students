@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class EG extends StatefulWidget {
-  const EG({Key? key}) : super(key: key);
+class IES extends StatefulWidget {
+  const IES({Key? key}) : super(key: key);
 
   @override
-  _EG createState() => _EG();
+  _IES createState() => _IES();
 }
-class _EG extends State<EG> {
+class _IES extends State<IES> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class _EG extends State<EG> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I:',
+                'UNIT-I:Introduction to Embedded Systems',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -29,7 +29,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Introduction to Engineering Drawing: Principles of Engineering Graphics and their Significance, Conic Sections including the Rectangular Hyperbola – General method only. Cycloid, Epicycloid and Hypocycloid, Scales – Plain & Diagonal.",
+                  "Definition of Embedded System, Embedded Systems Vs General Computing Systems, History of Embedded Systems, Classification of Embedded Systems, Major application areas, Purpose of Ebedded Systems, Characteristics and Quality attributes of Embedded Systems.",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -37,7 +37,7 @@ class _EG extends State<EG> {
                 ),
               ),
               Text(
-                'UNIT-II:  ',
+                'UNIT-II:The Typical Embedded System ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -50,7 +50,28 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Orthographic Projections: Principles of Orthographic Projections – Conventions – Projections of Points and Lines, Projections of Plane regular geometric figures. Auxiliary Planes.",
+                  "Core of the Embedded System, Memory, Sensors and Actuators, Communication Interface, Embedded Firmware, Other System components.",
+                    style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              Text(
+                'UNIT-III:Embedded Firmware Design and Development ',
+                style: TextStyle(
+                  fontSize: MediaQuery.of(context).size.width / 36,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.orange,
+                ),
+              ),
+              SizedBox(
+                height: 14,
+              ),
+              Container(
+                width: MediaQuery.of(context).size.width * 0.8,
+                child: Text(
+                  "Embedded Firmware Design, Embedded Firmware Development Languages, Programming in Embedded C. ",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -58,7 +79,7 @@ class _EG extends State<EG> {
                 ),
               ),
               Text(
-                'UNIT-III:  ',
+                'UNIT-IV:RTOS Based Embedded System Design',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -71,28 +92,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Projections of Regular Solids – Auxiliary Views - Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone – Auxiliary views – Sections of Sphere",
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              Text(
-                'UNIT-IV: ',
-                style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width / 36,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.orange,
-                ),
-              ),
-              SizedBox(
-                height: 14,
-              ),
-              Container(
-                width: MediaQuery.of(context).size.width * 0.8,
-                child: Text(
-                  "Development of Surfaces of Right Regular Solids – Prism, Cylinder, Pyramid and Cone, Intersection of Solids: Intersection of – Prism vs Prism- Cylinder Vs Cylinder",
+                  "Operating System basics, Types of Operating Systems, Tasks, Process, Threads, Multiprocessing and Multi-tasking, Task Scheduling, Threads-Processes-Scheduling putting them together, Task Communication, Task Synchronization, Device Drivers, How to choose an RTOS",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -113,7 +113,7 @@ class _EG extends State<EG> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Isometric Projections: Principles of Isometric Projection – Isometric Scale – Isometric Views – Conventions – Isometric Views of Lines, Plane Figures, Simple and Compound Solids – Isometric Projection of objects having non- isometric lines. Isometric Projection of Spherical Parts. Conversion of Isometric Views to Orthographic Views and Vice-versa –Conventions Introduction to CAD: (For Internal Evaluation Weightage only): Introduction to CAD Software Package Commands. - Free Hand Sketches of 2D- Creation of 2D Sketches by CAD Package",
+                  "Integration and Testing of Embedded Hardware and Firmware:Integration of Hardware and Firmware, Boards Bring up. The Embedded System Development Environment: The Integrated Development Environment (IDE), Types of files generated on Cross-Compilation, Disassembler/Decompiler, Simulators, Emulators and Debugging, Target Hardware Debugging,Boundary Scan",
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
