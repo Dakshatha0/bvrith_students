@@ -16,7 +16,7 @@ class _DSD extends State<DSD> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I: Introduction to Data Structures',
+                'UNIT-I:',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class _DSD extends State<DSD> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Introduction to Data Structures, abstract data types, Linear list – singly linked list implementation, insertion, deletion and searching operations on linear list, Stacks-Operations, array and linked representations of stacks, stack applications, Queues-operations, array and linked representations. ",
+                  "Number Systems: Number systems, Complements of Numbers, Codes- Weighted and Non-weighted codes and its Properties, Parity check code and Hamming code. Boolean Algebra: Basic Theorems and Properties, Switching Functions- Canonical and Standard Form, Algebraic Simplification, Digital Logic Gates, EX-OR gates, Universal Gates, Multilevel NAND/NOR realizations ",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -47,7 +47,7 @@ class _DSD extends State<DSD> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Dictionaries: linear list representation, skip list representation, operations - insertion, deletion and searching.\n Hash Table Representation: hash functions, collision resolution-separate chaining, open addressing- linear probing, quadratic probing, double hashing, rehashing, extendible hashing.",
+                  "Minimization of Boolean functions: Karnaugh Map Method - Up to five Variables, Don’t Care Map Entries, Tabular Method, Combinational Logic Circuits: Adders, Subtractors, Comparators, Multiplexers, Demultiplexers, Encoders, Decoders and Code converters, Hazards and Hazard Free Relations.",
                   style: TextStyle(fontSize: 16,),
                 ),
               ),
@@ -64,7 +64,8 @@ class _DSD extends State<DSD> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Search Trees: Binary Search Trees, Definition, Implementation, Operations- Searching, Insertion and Deletion, AVL Trees, Definition, Height of an AVL Tree, Operations – Insertion, Deletion and Searching,  Red –Black, Splay Trees.",
+                  "Sequential Circuits Fundamentals: Basic Architectural Distinctions between Combinational and Sequential circuits, SR Latch, Flip Flops: SR, JK, JK Master Slave, D and T Type Flip Flops, Excitation Table of all Flip Flops, Timing and Triggering Consideration, Conversion from one type of Flip-Flop to another. Registers and Counters: Shift Registers – Left, Right and Bidirectional Shift Registers, Applications of Shift Registers - Design and Operation of Ring and Twisted Ring Counter, Operation of Asynchronous and Synchronous Counters. ",
+
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -83,7 +84,7 @@ class _DSD extends State<DSD> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Graphs: Graph Implementation Methods. Graph Traversal Methods. \n Sorting: Heap Sort, External Sorting- Model for external sorting, Merge Sort.",
+                  "Sequential Machines: Finite State Machines, Synthesis of Synchronous Sequential Circuits- Serial Binary Adder, Sequence Detector, Parity-bit Generator, Synchronous Modulo N –Counters. Finite state machine-capabilities and limitations, Mealy and Moore models",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -102,7 +103,7 @@ class _DSD extends State<DSD> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Pattern Matching and Tries: Pattern matching algorithms-Brute force, the Boyer –Moore algorithm, the Knuth-Morris-Pratt algorithm, Standard Tries, Compressed Tries, Suffix tries.",
+                  "Realization of Logic Gates Using Diodes & Transistors: AND, OR and NOT Gates using Diodes and Transistors, DCTL, RTL, DTL, TTL, CML and CMOS Logic Families and its Comparison, Classification of Integrated circuits, comparison of various logic families, standard TTL NAND GateAnalysis & characteristics, TTL open collector O/Ps, Tristate TTL, MOS & CMOS open drain and tristate outputs, CMOS transmission gate, IC interfacing- TTL driving CMOS & CMOS driving TTL. ",
                   style: TextStyle(
                     fontSize: 16,
                   ),

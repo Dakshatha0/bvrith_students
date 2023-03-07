@@ -54,7 +54,7 @@ class _EDC extends State<EDC> {
             ),
           ),
           Text(
-            'UNIT-III:  ',
+            'UNIT-III:Junction Field Effect Transistor (FET)  ',
             style: TextStyle(
               fontSize: MediaQuery.of(context).size.width / 30,
               fontWeight: FontWeight.bold,
@@ -66,14 +66,14 @@ class _EDC extends State<EDC> {
           Container(
             width: MediaQuery.of(context).size.width * 0.8,
             child: Text(
-              "Inheritance: Defining a class hierarchy, Different forms of inheritance, Defining the Base and Derived classes, Access to the base class members, Base and Derived class construction, Destructors, Virtual base class.\n Virtual Functions and Polymorphism: Static and Dynamic binding, virtual functions, Dynamic binding through virtual functions, Virtual function call mechanism, Pure virtual functions, Abstract classes, Implications of polymorphic use of classes, Virtual destructors.",
+              "unction Field Effect Transistor (FET): Construction, Principle of Operation, Pinch-Off Voltage, VoltAmpere Characteristic, Comparison of BJT and FET, Biasing of FET, FET as Voltage Variable Resistor. Special Purpose Devices: Zener Diode - Characteristics, Voltage Regulator. Principle of Operation - SCR, Tunnel diode, UJT, Varactor Diode.",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
           ),
           Text(
-            'UNIT-IV: ',
+            'UNIT-IV:Analysis and Design of Small Signal Low Frequency BJT Amplifiers ',
             style: TextStyle(
               fontSize: MediaQuery.of(context).size.width / 30,
               fontWeight: FontWeight.bold,
@@ -85,14 +85,14 @@ class _EDC extends State<EDC> {
           Container(
             width: MediaQuery.of(context).size.width * 0.8,
             child: Text(
-              "C++ I/O: I/O using C functions, Stream classes hierarchy, Stream I/O, File streams and String streams, Overloading operators, Error handling during file operations, Formatted I/O.",
+              "Transistor Hybrid model, Determination of h-parameters from transistor characteristics, Typical values of h- parameters in CE, CB and CC configurations, Transistor amplifying action, Analysis of CE, CC, CB Amplifiers and CE Amplifier with emitter resistance, low frequency response of BJT Amplifiers, effect of coupling and bypass capacitors on CE Amplifier. ",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
           ),
           Text(
-            'Unit-V: ',
+            'Unit-V: FET Amplifiers',
             style: TextStyle(
               fontSize: MediaQuery.of(context).size.width / 30,
               fontWeight: FontWeight.bold,
@@ -104,7 +104,7 @@ class _EDC extends State<EDC> {
           Container(
             width: MediaQuery.of(context).size.width * 0.8,
             child: Text(
-              "Exception Handling: Benefits of exception handling, Throwing an exception, The try block, Catching an exception, Exception objects, Exception specifications, Stack unwinding, Rethrowing an exception, Catching all exceptions.",
+              "Small Signal Model, Analysis of JFET Amplifiers, Analysis of CS, CD, CG JFET Amplifiers. MOSFET Characteristics in Enhancement and Depletion mode, Basic Concepts of MOS Amplifiers.",
               style: TextStyle(
                 fontSize: 16,
               ),

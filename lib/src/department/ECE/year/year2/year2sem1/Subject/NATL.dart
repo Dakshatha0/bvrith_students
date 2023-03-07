@@ -28,7 +28,7 @@ class _NATL extends State<NATL> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Object-Oriented Thinking: Different paradigms for problem solving, need for OOP paradigm, differences between OOP and Procedure oriented programming, Overview of OOP concepts-Abstraction, Encapsulation, Inheritance and Polymorphism.\n C++ Basics: Structure of a C++ program, Data types, Declaration of variables, Expressions, Operators, Operator Precedence, Evaluation of expressions, Type conversions, Pointers, Arrays, Pointers and Arrays, Strings, Structures, References. Flow control statement- if, switch, while, for, do, break,continue, goto statements. Functions - Scope of variables, Parameter passing, Default arguments,inline functions, Recursive functions, Pointers to functions. Dynamic memory allocation and de-allocation operators-new and delete, Preprocessor directives.  ",
+                  "Network Topology, Basic cutset and tie set matrices for planar networks, Magnetic Circuits, Self and Mutual inductances, dot convention, impedance, reactance concept, Impedance transformation and coupled circuits, co-efficient of coupling, equivalent T for Magnetically coupled circuits, Ideal Transformer ",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -47,8 +47,8 @@ class _NATL extends State<NATL> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "C++ Classes and Data Abstraction: Class definition, Class structure, Class objects, Class scope, this pointer, Friends to a class, Static class members, Constant member functions, Constructors and Destructors, Dynamic creation and destruction of objects, Data abstraction, ADT and information hiding.",
-                  style: TextStyle(
+                  "Transient and Steady state analysis of RC, RL and RLC Circuits, Sinusoidal, Step and Square responses. RC Circuits as integrator and differentiators. 2nd order series and parallel RLC Circuits, Root locus, damping factor, over damped, under damped, critically damped cases, quality factor and bandwidth for series and parallel resonance, resonance curves.",
+                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -66,8 +66,8 @@ class _NATL extends State<NATL> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Inheritance: Defining a class hierarchy, Different forms of inheritance, Defining the Base and Derived classes, Access to the base class members, Base and Derived class construction, Destructors, Virtual base class.\n Virtual Functions and Polymorphism: Static and Dynamic binding, virtual functions, Dynamic binding through virtual functions, Virtual function call mechanism, Pure virtual functions, Abstract classes, Implications of polymorphic use of classes, Virtual destructors.",
-                  style: TextStyle(
+                  "Two port network parameters, Z, Y, ABCD, h and g parameters, Characteristic impedance, Image transfer constant, image and iterative impedance, network function, driving point and transfer functions – using transformed (S) variables, Poles and Zeros. Standard T, , L Sections, Characteristic impedance, image transfer constants, Design of Attenuators, impedance matching network. ",
+                    style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -85,7 +85,7 @@ class _NATL extends State<NATL> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "C++ I/O: I/O using C functions, Stream classes hierarchy, Stream I/O, File streams and String streams, Overloading operators, Error handling during file operations, Formatted I/O.",
+                  "Transmission Lines - I: Types, Parameters, Transmission Line Equations, Primary & Secondary Constants, Equivalent Circuit, Characteristic Impedance, Propagation Constant, Phase and Group Velocities, Infinite Line Concepts, Lossless / Low Loss Characterization, Types of Distortion, Condition for Distortion less line, Minimum Attenuation, Loading - Types of Loading.",
                   style: TextStyle(
                     fontSize: 16,
                   ),
@@ -104,8 +104,8 @@ class _NATL extends State<NATL> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Exception Handling: Benefits of exception handling, Throwing an exception, The try block, Catching an exception, Exception objects, Exception specifications, Stack unwinding, Rethrowing an exception, Catching all exceptions.",
-                  style: TextStyle(
+                  "Transmission Lines – II: Input Impedance Relations, SC and OC Lines, Reflection Coefficient, VSWR. λ/4, λ/2, λ/8 Lines – Impedance Transformations, Smith Chart – Configuration and Applications, Single Stub Matching.",
+                   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
