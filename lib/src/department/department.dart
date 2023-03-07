@@ -1,4 +1,7 @@
-import 'package:bvrith_students/src/department/CSE/year/yearofstudy.dart';
+import'package:bvrith_students/src/department/CSE/year/yearofstudy.dart';
+import 'package:bvrith_students/src/department/ECE/year/ECEyearofstudy.dart';
+import 'package:bvrith_students/src/department/EEE/year/EEEyearofstudy.dart';
+import 'package:bvrith_students/src/department/IT/year/ITyearofstudy.dart';
 import 'package:flutter/material.dart';
 
 class department extends StatefulWidget {
@@ -32,7 +35,7 @@ class _departmentState extends State<department> {
             ElevatedButton(
                 onPressed: (){
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => yearOfstudy()));
+                      MaterialPageRoute(builder: (context) => ECEyearOfstudy()));
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
@@ -44,7 +47,7 @@ class _departmentState extends State<department> {
             ElevatedButton(
               onPressed: (){
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => yearOfstudy()));
+                    MaterialPageRoute(builder: (context) => EEEyearOfstudy()));
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.white,
@@ -68,7 +71,7 @@ class _departmentState extends State<department> {
             ElevatedButton(
               onPressed: (){
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => yearOfstudy()));
+                    MaterialPageRoute(builder: (context) => ITyearOfstudy()));
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.white,
