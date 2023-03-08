@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'Subjects/CNS.dart';
 import 'Subjects/Data Mining.dart';
 
