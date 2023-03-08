@@ -31,7 +31,7 @@ class _COSM extends State<COSM> {
                   "Probability: Sample Space, Events, Counting Sample Points, Probability of an Event, Additive Rules, Conditional Probability, Independence, and the Product Rule, Bayes’ Rule.\n Random Variables and Probability Distributions: Concept of a Random Variable, Discrete Probability Distributions, Continuous Probability Distributions, Statistical Independence.  ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -52,7 +52,7 @@ class _COSM extends State<COSM> {
                   "Mathematical Expectation: Mean of a Random Variable, Variance and Covariance of Random Variables, Means and Variances of Linear Combinations of Random Variables, Chebyshev’s Theorem.\n Discrete Probability Distributions: Introduction and Motivation, Binomial, Distribution, Geometric Distributions and Poisson distribution.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -73,7 +73,7 @@ class _COSM extends State<COSM> {
                   "Continuous Probability Distributions : Continuous Uniform Distribution, Normal Distribution, Areas under the Normal Curve, Applications of the Normal Distribution, Normal Approximation to the Binomial,  Gamma and Exponential Distributions.\n Fundamental Sampling Distributions: Random Sampling, Some Important Statistics, Sampling Distributions, Sampling Distribution of Means and the Central Limit Theorem, Sampling Distribution of S2, t –Distribution, F-Distribution.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -94,7 +94,7 @@ class _COSM extends State<COSM> {
                   "Estimation & Tests of Hypotheses: Introduction, Statistical Inference, Classical Methods of Estimation.: Estimating the Mean, Standard Error of a Point Estimate, Prediction Intervals, Tolerance Limits, Estimating the Variance, Estimating a Proportion for single mean , Difference between Two Means, between Two Proportions for Two Samples and Maximum Likelihood Estimation.\n Statistical Hypotheses: General Concepts, Testing a Statistical Hypothesis, Tests Concerning a Single Mean, Tests on Two Means, Test on a Single Proportion, Two Samples: Tests on Two Proportions.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -115,7 +115,7 @@ class _COSM extends State<COSM> {
                   "Stochastic Processes and Markov Chains: Introduction to Stochastic processes- Markov process.Transition Probability, Transition Probability Matrix, First order and Higher order Markov process, n- step transition probabilities, Markov chain, Steady state condition, Markov analysis.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),

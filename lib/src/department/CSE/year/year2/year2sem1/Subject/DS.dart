@@ -32,7 +32,7 @@ class _DS extends State<DS> {
                   " Introduction to Data Structures, abstract data types, Linear list – singly linked list implementation, insertion, deletion and searching operations on linear list, Stacks-Operations, array and linked representations of stacks, stack applications, Queues-operations, array and linked representations. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _DS extends State<DS> {
                   "Dictionaries: linear list representation, skip list representation, operations - insertion, deletion and searching.\n Hash Table Representation: hash functions, collision resolution-separate chaining, open addressing- linear probing, quadratic probing, double hashing, rehashing, extendible hashing.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -74,7 +74,7 @@ class _DS extends State<DS> {
                   "Search Trees: Binary Search Trees, Definition, Implementation, Operations- Searching, Insertion and Deletion, AVL Trees, Definition, Height of an AVL Tree, Operations – Insertion, Deletion and Searching,  Red –Black, Splay Trees.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _DS extends State<DS> {
                   "Graphs: Graph Implementation Methods. Graph Traversal Methods. \n Sorting: Heap Sort, External Sorting- Model for external sorting, Merge Sort.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -116,7 +116,7 @@ class _DS extends State<DS> {
                   "Pattern Matching and Tries: Pattern matching algorithms-Brute force, the Boyer –Moore algorithm, the Knuth-Morris-Pratt algorithm, Standard Tries, Compressed Tries, Suffix tries.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),

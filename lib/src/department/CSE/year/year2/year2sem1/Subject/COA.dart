@@ -32,7 +32,7 @@ class _COA extends State<COA> {
                   " Digital Computers: Introduction, Block diagram of Digital Computer, Definition of Computer Organization, Computer Design and Computer Architecture.\n Register Transfer Language and Micro operations: Register Transfer language, Register Transfer, Bus and memory transfers, Arithmetic Micro operations, logic micro operations, shift micro operations,  Arithmetic logic shift unit.\n Basic Computer Organization and Design: Instruction codes, Computer Registers Computer instructions, Timing and Control, Instruction cycle, Memory Reference Instructions, Input – Output and Interrupt. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _COA extends State<COA> {
                   "Microprogrammed Control: Control memory, Address sequencing, micro program example, design of control unit \n Central Processing Unit: General Register Organization, Instruction Formats, Addressing modes, Data Transfer and Manipulation, Program Control.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -74,7 +74,7 @@ class _COA extends State<COA> {
                   "Data Representation: Data types, Complements, Fixed Point Representation, Floating Point Representation.\nComputer Arithmetic: Addition and subtraction, multiplication Algorithms, Division Algorithms, Floating – point Arithmetic operations. Decimal Arithmetic unit, Decimal Arithmetic operations.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _COA extends State<COA> {
                   "Input-Output Organization: Input-Output Interface, Asynchronous data transfer, Modes of Transfer,Priority Interrupt Direct memory Access.\n Memory Organization: Memory Hierarchy, Main Memory, Auxiliary memory, Associate Memory, Cache Memory.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -116,7 +116,7 @@ class _COA extends State<COA> {
                   "Reduced Instruction Set Computer: CISC Characteristics, RISC Characteristics. \n Pipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline, RISC Pipeline, Vector Processing, Array Processor.\n Multi Processors: Characteristics of Multiprocessors, Interconnection Structures, Interprocessor arbitration, Interprocessor communication and synchronization, Cache Coherence.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
