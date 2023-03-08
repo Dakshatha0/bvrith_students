@@ -31,7 +31,7 @@ class _NaturalLanguageProcessing extends State<NaturalLanguageProcessing> {
                   "Finding the Structure of Words: Words and Their Components, Issues and Challenges, Morphological Models Finding the Structure of Documents: Introduction, Methods, Complexity of the Approaches, Performances of the Approaches",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -52,7 +52,7 @@ class _NaturalLanguageProcessing extends State<NaturalLanguageProcessing> {
                   "Syntax Analysis: Parsing Natural Language, Treebanks: A Data-Driven Approach to Syntax, Representation of Syntactic Structure, Parsing Algorithms, Models for Ambiguity Resolution in Parsing, Multilingual Issues ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -73,7 +73,7 @@ class _NaturalLanguageProcessing extends State<NaturalLanguageProcessing> {
                   "Semantic Parsing: Introduction, Semantic Interpretation, System Paradigms, Word Sense Systems, Software.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -94,7 +94,7 @@ class _NaturalLanguageProcessing extends State<NaturalLanguageProcessing> {
                   "Predicate-Argument Structure, Meaning Representation Systems, Software.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -115,7 +115,7 @@ class _NaturalLanguageProcessing extends State<NaturalLanguageProcessing> {
                   "Discourse Processing: Cohension, Reference Resolution, Discourse Cohension and Structure Language Modeling: Introduction, N-Gram Models, Language Model Evaluation, Parameter Estimation, Language Model Adaptation, Types of Language Models, Language-Specific Modeling Problems, Multilingual and Crosslingual Language Modeling ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
