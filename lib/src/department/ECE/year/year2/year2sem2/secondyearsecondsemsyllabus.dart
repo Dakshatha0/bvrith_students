@@ -31,7 +31,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("ADC",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("ANALOG AND DIGITAL COMMUNICATIONS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
