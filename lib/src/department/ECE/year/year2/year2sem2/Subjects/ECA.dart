@@ -28,8 +28,7 @@ class _ECA extends State<ECA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Introduction, Structures - Simple Batch, Multiprogrammed, Time-shared, Personal Computer, Parallel, Distributed Systems, Real-Time Systems, System components, Operating System services, System Calls ",
-                  style: TextStyle(
+                  " Multistage Amplifiers: Classification of Amplifiers, Distortion in amplifiers, Different coupling schemes used in amplifiers, Frequency response and Analysis of multistage amplifiers, Casca RC Coupledamplifiers, Cascode amplifier, Darlington pair. Transistor at High Frequency: Hybrid -ߨmodel of Common Emitter transistor model, fα, fβ and unity gain bandwidth, Gain-bandwidth product.", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -47,8 +46,7 @@ class _ECA extends State<ECA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Process and CPU Scheduling - Process concepts and scheduling, Operations on processes, Cooperating Processes, Threads, and Interposes Communication, Scheduling Criteria, Scheduling Algorithms, Multiple -Processor Scheduling. System call interface for process management-fork, exit, wait, waitpid, exec",
-                  style: TextStyle(
+                  "Feedback Amplifiers: Concepts of feedback – Classification of feedback amplifiers – General characteristics of Negative feedback amplifiers – Effect of Feedback on Amplifier characteristics – Voltage series, Voltage shunt, Current series and Current shunt Feedback configurations – Simple problems.",style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -66,8 +64,7 @@ class _ECA extends State<ECA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Deadlocks - System Model, Deadlocks Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, and Recovery from Deadlock Process Management and Synchronization - The Critical Section Problem, Synchronization Hardware, Semaphores, and Classical Problems of Synchronization, Critical Regions, Monitors Interprocess Communication Mechanisms: IPC between processes on a single computer system, IPC between processes on different systems, using pipes, FIFOs, message queues, shared memory.",
-                  style: TextStyle(
+                  "Oscillators: Condition for Oscillations, RC type Oscillators-RC phase shift and Wien-bridge Oscillators, LC type Oscillators –Generalized analysis of LC Oscillators, Hartley and Colpitts Oscillators, Frequency and amplitude stability of Oscillators, Crystal Oscillator.",  style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -85,8 +82,7 @@ class _ECA extends State<ECA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Memory Management and Virtual Memory - Logical versus Physical Address Space, Swapping, Contiguous Allocation, Paging, Segmentation, Segmentation with Paging, Demand Paging, Page Replacement, Page Replacement Algorithms.",
-                  style: TextStyle(
+                  "Large Signal Amplifiers: Class A Power Amplifier- Series fed and Transformer coupled, Conversion Efficiency, Class B Power Amplifier- Push Pull and Complimentary Symmetry configurations,  Conversion Efficiency, Principle of operation of Class AB and Class –C Amplifiers. Tuned Amplifiers: Introduction, single Tuned Amplifiers – Q-factor, frequency response of tuned amplifiers, Concept of stagger tuning and synchronous tuning.",  style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -104,8 +100,7 @@ class _ECA extends State<ECA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "File System Interface and Operations -Access methods, Directory Structure, Protection, File System Structure, Allocation methods, Free-space Management. Usage of open, create, read, write, close, lseek, stat, ioctl system calls.",
-                  style: TextStyle(
+                  "Multivibrators: Analysis and Design of Bistable, Monostable, Astable Multivibrators and Schmitt trigger using Transistors. Time Base Generators: General features of a Time base Signal, Methods of Generating Time BaseM Waveform, concepts of Transistor Miller and Bootstrap Time Base Generator, Methods of Linearity improvement", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),

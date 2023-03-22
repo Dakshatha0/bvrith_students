@@ -28,8 +28,7 @@ class _LICA extends State<LICA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Database System Applications: A Historical Perspective, File Systems versus a DBMS, the Data Model, Levels of Abstraction in a DBMS, Data Independence, Structure of a DBMS Introduction to Database Design: Database Design and ER Diagrams, Entities, Attributes, and Entity Sets, Relationships and Relationship Sets, Additional Features of the ER Model, Conceptual Design With the ER Mode ",
-                  style: TextStyle(
+                  "Integrated Circuits: Classification, chip size and circuit complexity, basic information of Op-amp, ideal and practical Op-amp, internal circuits, Op-amp characteristics, DC and AC Characteristics, 741 opamp and its features, modes of operation-inverting, non-inverting, differential.",  style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -47,8 +46,7 @@ class _LICA extends State<LICA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Introduction to the Relational Model: Integrity constraint over relations, enforcing integrity constraints, querying relational data, logical data base design, introduction to views, destroying/altering tables and views. Relational Algebra, Tuple relational Calculus, Domain relational calculus",
-                  style: TextStyle(
+                  "Op-amp and Applications: Basic information of Op-amp, instrumentation amplifier, ac amplifier, V to I and I to V converters, Sample & hold circuits, multipliers and dividers, differentiators and integrators,  comparators, Schmitt trigger, Multivibrators, introduction to voltage regulators, features of 723", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -66,8 +64,7 @@ class _LICA extends State<LICA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "SQL: QUERIES, CONSTRAINTS, TRIGGERS: form of basic SQL query, UNION, INTERSECT, and EXCEPT, Nested Queries, aggregation operators, NULL values, complex integrity constraints in SQL, triggers and active data bases. Schema Refinement: Problems caused by redundancy, decompositions, problems related to decomposition, reasoning about functional dependencies, FIRST, SECOND, THIRD normal forms, BCNF, lossless join decomposition, multi-valued dependencies, FOURTH normal form, FIFTH normal form. ",
-                  style: TextStyle(
+                  "Active Filters & Oscillators: Introduction, 1st order LPF, HPF filters, Band pass, Band reject and all pass filters. Oscillator types and principle of operation - RC, Wien and quadrature type, waveform generators - triangular, sawtooth, square wave and VCO", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -85,8 +82,7 @@ class _LICA extends State<LICA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Transaction Concept, Transaction State, Implementation of Atomicity and Durability, Concurrent Executions, Serializability, Recoverability, Implementation of Isolation, Testing for serializability, Lock Based Protocols, Timestamp Based Protocols, Validation- Based Protocols, Multiple Granularity, Recovery and Atomicity, Log–Based Recovery, Recovery with Concurrent Transactions.",
-                  style: TextStyle(
+                  "Timers & Phase Locked Loops: Introduction to 555 timer, functional diagram, monostable and astable operations and applications, Schmitt Trigger. PLL - introduction, block schematic, principles and description of individual blocks of 565.",style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -104,8 +100,7 @@ class _LICA extends State<LICA> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Data on External Storage, File Organization and Indexing, Cluster Indexes, Primary and Secondary Indexes, Index data Structures, Hash Based Indexing, Tree base Indexing, Comparison of File Organizations, Indexes and Performance Tuning, Intuitions for tree Indexes, Indexed Sequential Access Methods (ISAM), B+ Trees: A Dynamic Index Structure.",
-                  style: TextStyle(
+                  "D-A and A-D Converters: Introduction, basic DAC techniques, weighted resistor DAC, R-2R ladder DAC, inverted R-2R DAC, and IC 1408 DAC, Different types of ADCs - parallel comparator type ADC,  counter type ADC, successive approximation ADC dual slope integration type ADC, DAC and ADC specifications", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),

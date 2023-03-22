@@ -16,7 +16,7 @@ class _LNC extends State<LNC> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I:Introduction to Business and Economics',
+                'UNIT-I:Laplace Transforms',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -28,14 +28,13 @@ class _LNC extends State<LNC> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Business: Structure of Business Firm, Theory of Firm, Types of Business Entities, Limited Liability Companies, Sources of Capital for a Company, Non-Conventional Sources of Finance. Economics: Significance of Economics, Micro and Macro Economic Concepts, Concepts and Importance of National Income, Inflation, Money Supply in Inflation, Business Cycle, Features and Phases of Business Cycle. Nature and Scope of Business Economics, Role of Business Economist, Multidisciplinary nature of Business Economics  ",
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  "Laplace Transforms; Laplace Transform of standard functions; first shifting theorem; Laplace transforms of functions when they are multiplied and divided by‘t’. Laplace transforms of derivatives and integrals of function; Evaluation of integrals by Laplace transforms; Laplace transforms of Special Functions; Laplace transform of periodic functions. Inverse Laplace transform by different methods, convolution theorem (without Proof), solving ODEs by Laplace Transform method.",   style: TextStyle(
+                  fontSize: 16,
+                ),
                 ),
               ),
               Text(
-                'UNIT-II: Demand and Supply Analysis ',
+                'UNIT-II:Numerical Methods – I  ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -47,14 +46,13 @@ class _LNC extends State<LNC> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Elasticity of Demand: Elasticity, Types of Elasticity, Law of Demand, Measurement and Significance of Elasticity of Demand, Factors affecting Elasticity of Demand, Elasticity of Demand in decision making, Demand Forecasting: Characteristics of Good Demand Forecasting, Steps in Demand Forecasting, Methods of Demand Forecasting. Supply Analysis: Determinants of Supply, Supply Function & Law of Supply.",
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  "Solution of polynomial and transcendental equations – Bisection method, Iteration Method, NewtonRaphson method and Regula-Falsi method. Finite differences- forward differences- backward differences-central differences-symbolic relations and separation of symbols; Interpolation using Newton’s forward and backward difference formulae. Central difference interpolation: Gauss’s forward and backward formulae; Lagrange’s method of interpolation", style: TextStyle(
+                  fontSize: 16,
+                ),
                 ),
               ),
               Text(
-                'UNIT-III: Production, Cost, Market Structures & Pricing ',
+                'UNIT-III:Numerical Methods – II  ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -66,14 +64,13 @@ class _LNC extends State<LNC> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Production Analysis: Factors of Production, Production Function, Production Function with one variable input, two variable inputs, Returns to Scale, Different Types of Production Functions. Cost analysis: Types of Costs, Short run and Long run Cost Functions. Market Structures: Nature of Competition, Features of Perfect competition, Monopoly, Oligopoly, Monopolistic Competition. Pricing: Types of Pricing, Product Life Cycle based Pricing, Break Even Analysis, Cost Volume Profit Analysis. ",
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  "Numerical integration: Trapezoidal rule and Simpson’s 1/3rd and 3/8 rules. Ordinary differential equations: Taylor’s series; Picard’s method; Euler and modified Euler’s methods; Runge-Kutta method of fourth order.",style: TextStyle(
+                  fontSize: 16,
+                ),
                 ),
               ),
               Text(
-                'UNIT-IV: Financial Accounting ',
+                'UNIT-IV:Complex Variables (Differentiation) ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -85,14 +82,13 @@ class _LNC extends State<LNC> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  ": Accounting concepts and Conventions, Accounting Equation, Double-Entry system of Accounting, Rules for maintaining Books of Accounts, Journal, Posting to Ledger, Preparation of Trial Balance, Elements of Financial Statements, Preparation of Final Accounts.",
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  "Limit, Continuity and Differentiation of Complex functions. Cauchy-Riemann equations (without proof), Milne- Thomson methods, analytic functions, harmonic functions, finding harmonic conjugate; elementary analytic functions (exponential, trigonometric, logarithm) and their properties.",style: TextStyle(
+                  fontSize: 16,
+                ),
                 ),
               ),
               Text(
-                'Unit-V: Financial Analysis through Ratios ',
+                'Unit-V: Complex Variables (Integration) ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 30,
                   fontWeight: FontWeight.bold,
@@ -104,10 +100,9 @@ class _LNC extends State<LNC> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Concept of Ratio Analysis, Liquidity Ratios, Turnover Ratios, Profitability Ratios, Proprietary Ratios, Solvency, Leverage Ratios (simple problems). Introduction to Fund Flow and Cash Flow Analysis (simple problems).",
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
+                  "Line integrals, Cauchy’s theorem, Cauchy’s Integral formula, Liouville’s theorem, Maximum-Modulus theorem (All theorems without proof); zeros of analytic functions, singularities, Taylor’s series,Laurent’s series; Residues, Cauchy Residue theorem (without proof).",  style: TextStyle(
+                  fontSize: 16,
+                ),
                 ),
               ),
             ],

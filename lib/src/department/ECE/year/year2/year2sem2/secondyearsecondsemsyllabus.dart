@@ -43,7 +43,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("ECA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("ELECTRONIC CIRCUIT ANALYSIS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -55,7 +55,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("EFW",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("ELECTROMAGNETIC FIELDS AND WAVES",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
@@ -67,7 +67,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("LICA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text(" LINEAR IC APPLICATIONS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
@@ -78,7 +78,7 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Operating Systems",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text(": LAPLACE TRANSFORMS, NUMERICAL METHODS AND COMPLEX VARIABLES",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),

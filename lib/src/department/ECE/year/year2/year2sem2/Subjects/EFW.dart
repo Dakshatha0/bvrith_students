@@ -28,8 +28,7 @@ class _EFW extends State<EFW> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  " Object-Oriented Thinking- A way of viewing world – Agents and Communities, messages and methods, Responsibilities, Classes and Instances, Class Hierarchies- Inheritance, Method binding, Overriding and Exceptions, Summary of Object-Oriented concepts. Java buzzwords, An Overview of Java, Data types, Variables and Arrays, operators, expressions, control statements, Introducing classes, Methods and Classes, String handling. Inheritance– Inheritance concept, Inheritance basics, Member access, Constructors, Creating Multilevel hierarchy, super uses, using final with inheritance, Polymorphism-ad hoc polymorphism, pure polymorphism, method overriding, abstract classes, Object class, forms of inheritance- specialization, specification, construction, extension, limitation, combination, benefits of inheritance, costs of inheritance.",
-                  style: TextStyle(
+                  "Electrostatics: Coulomb’s Law, Electric Field Intensity – Fields due to Different Charge Distributions, Electric Flux Density, Gauss Law and Applications, Electric Potential, Relations Between E and V,  Maxwell’s Two Equations for Electrostatic Fields, Energy Density. Convection and Conduction Currents, Dielectric Constant, Isotropic and Homogeneous Dielectrics, Continuity Equation, Relaxation Time, Poisson’s and Laplace’s Equations, Capacitance – Parallel Plate, Coaxial, Spherical Capacitors",   style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -47,8 +46,7 @@ class _EFW extends State<EFW> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Packages- Defining a Package, CLASSPATH, Access protection, importing packages. Interfaces- defining an interface, implementing interfaces, Nested interfaces, applying interfaces, variables in interfaces and extending interfaces. Stream based I/O (java.io) – The Stream classes-Byte streams and Character streams, Reading console Input and Writing Console Output, File class, Reading and writing Files, Random access file operations, The Console class, Serialization, Enumerations, auto boxing, generics. ",
-                  style: TextStyle(
+                  "Magnetostatics: Biot-Savart’s Law, Ampere’s Circuital Law and Applications, Magnetic Flux Density, Maxwell’s Two Equations for Magnetostatic Fields, Magnetic Scalar and Vector Potentials, Forces due to Magnetic Fields, Ampere’s Force Law.", style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -66,8 +64,7 @@ class _EFW extends State<EFW> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Exception handling - Fundamentals of exception handling, Exception types, Termination or resumptive models, Uncaught exceptions, using try and catch, multiple catch clauses, nested try statements, throw, throws and finally, built- in exceptions, creating own exception sub classes. Multithreading- Differences between thread-based multitasking and process-based multitasking, Java thread model, creating threads, thread priorities, synchronizing threads, inter thread communication. ",
-                  style: TextStyle(
+                  "Maxwell’s Equations (Time Varying Fields): Faraday’s Law and Transformer EMF, Inconsistency of Ampere’s Law and Displacement Current Density, Maxwell’s Equations in Different Forms, Conditions at a Boundary Surface - Dielectric-Dielectric and Dielectric-Conductor Interfaces.",style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -85,8 +82,7 @@ class _EFW extends State<EFW> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "The Collections Framework (java.util)- Collections overview, Collection Interfaces, The Collection classes- Array List, Linked List, Hash Set, Tree Set, Priority Queue, Array Deque. Accessing a Collection via an Iterator, Using an Iterator, The For-Each alternative, Map Interfaces and Classes, Comparators, Collection algorithms, Arrays, The Legacy Classes and Interfaces- Dictionary, Hashtable, Properties, Stack, Vector More Utility classes, String Tokenizer, Bit Set, Date, Calendar, Random, Formatter, Scanner",
-                  style: TextStyle(
+                  "EM Wave Characteristics: Wave Equations for Conducting and Perfect Dielectric Media, Uniform Plane Waves – Definitions, Relation between E & H, Sinusoidal Variations, Wave Propagation inLossless and Conducting Media, Conductors & Dielectrics – Characterization, Wave Propagation in Good Conductors and Good Dielectrics, Polarization. Reflection and Refraction of Plane Waves – Normal and Oblique Incidences for both Perfect Conductor and Perfect Dielectrics, Brewster Angle, Critical Angle and Total Internal Reflection, Surface Impedance, Poynting Vector and Poynting Theorem",style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
@@ -104,8 +100,7 @@ class _EFW extends State<EFW> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "GUI Programming with Swing – Introduction, limitations of AWT, MVC architecture, components, containers. Understanding Layout Managers, Flow Layout, Border Layout, Grid Layout, Card Layout, Grid Bag Layout. Event Handling- The Delegation event model- Events, Event sources, Event Listeners, Event classes, Handling mouse and keyboard events, Adapter classes, Inner classes, Anonymous Inner classes. A Simple Swing Application, Applets – Applets and HTML, Security Issues, Applets and Applications, passing parameters to applets. Creating a Swing Applet, Painting in Swing, A Paint example, Exploring Swing Controls- JLabel and Image Icon, JText Field, The Swing Buttons- JButton, JToggle Button, JCheck Box, JRadio Button, JTabbed Pane, JScroll Pane, JList, JCombo Box, Swing Menus, Dialogs.",
-                  style: TextStyle(
+                  "Waveguides: Electromagnetic Spectrum and Bands. Rectangular Waveguides – Solution of Wave Equations in Rectangular Coordinates, TE/TM mode analysis, Expressions for Fields, Characteristic Equation and Cut-off Frequencies, Dominant and Degenerate Modes, Sketches of TE and TM mode fields in the cross-section, Phase and Group Velocities, Wavelengths and Impedance Relations,Equation of Power Transmission, Impossibility of TEM Mode. Microstrip Lines – Zo Relations, Effective Dielectric Constant",  style: TextStyle(
                     fontSize: 16,
                   ),
                 ),
