@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class CN extends StatefulWidget {
-  const CN({Key? key}) : super(key: key);
+class VLSI extends StatefulWidget {
+  const VLSI({Key? key}) : super(key: key);
 
   @override
-  _CN createState() => _CN();
+  _VLSI createState() => _VLSI();
 }
-class _CN extends State<CN> {
+class _VLSI extends State<VLSI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

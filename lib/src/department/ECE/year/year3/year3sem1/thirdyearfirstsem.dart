@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CN.dart';
-import 'Subjects/FLAT.dart';
-import 'Subjects/SE.dart';
-import 'Subjects/WT.dart';
+import 'Subjects/M&M.dart';
+import 'Subjects/DCN.dart';
+import 'Subjects/CS.dart';
+import 'Subjects/BEFA.dart';
 
 class thirdYearFirstSemSubjects extends StatefulWidget {
   const thirdYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -23,50 +23,50 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CN()));
+                  MaterialPageRoute(builder: (context) => CS()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Computer Networks",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Control Systems",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => FLAT()));
+                  MaterialPageRoute(builder: (context) => DCN()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Formal Languages and Automata Theory",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Data Communications and Networks",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => SE()));
+                  MaterialPageRoute(builder: (context) => MM()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Software Engineering",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Microprocessors & Microcontrollers ",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => WT()));
+                  MaterialPageRoute(builder: (context) => BEFA()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Web Technologies",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Business Economics & Financial Analysis",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),

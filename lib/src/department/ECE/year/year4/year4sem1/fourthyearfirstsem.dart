@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CNS.dart';
-import 'Subjects/Data Mining.dart';
+import 'Subjects/MOC.dart';
+import 'Subjects/PPLE.dart';
 
 class fourthYearFirstSemSubjects extends StatefulWidget {
   const fourthYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -21,26 +21,26 @@ class _yearOfFirstYearSubjectsState extends State<fourthYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CNS()));
+                  MaterialPageRoute(builder: (context) => MOC()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("CNS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Microwave and Optical Communications",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DataMining()));
+                  MaterialPageRoute(builder: (context) => PPLE()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Data Mining",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Professional Practice, Law & Ethics",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
 
         ],
