@@ -32,7 +32,7 @@ class _Mathematics2 extends State<Mathematics2> {
                   "Exact, linear and Bernoulli’s equations; Applications : Newton’s law of cooling, Law of natural growth and decay; Equations not of first degree: equations solvable for p, equations solvable for y, equations solvable for x and Clairaut’s type. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _Mathematics2 extends State<Mathematics2> {
                   "Second order linear differential equations with constant coefficients: Non-Homogeneous terms of the type ݁௔௫ , sinܽݔ , cos ܽݔ ,polynomials in ݔ݁ , ௔௫ܸ(ݔ (and ݔ)ܸ ݔ ;(method of variation of parameters; Equations reducible to linear ODE with constant coefficients: Legendre’s equation, Cauchy-Eule equation. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -74,7 +74,7 @@ class _Mathematics2 extends State<Mathematics2> {
                   "Evaluation of Double Integrals (Cartesian and polar coordinates); change of order of integration (only Cartesian form); Evaluation of Triple Integrals: Change of variables (Cartesian to polar) for double and (Cartesian to Spherical and Cylindrical polar coordinates) for triple integrals. Applications: Areas (by double integrals) and volumes (by double integrals and triple integrals), Centre of mass and Gravity (constant and variable densities) by double and triple integrals (applications involving cubes, sphere and rectangular parallelopiped). ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _Mathematics2 extends State<Mathematics2> {
                   "Vector point functions and scalar point functions. Gradient, Divergence and Curl. Directional derivatives, Tangent plane and normal line. Vector Identities. Scalar potential functions. Solenoidal and Irrotational vectors. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -116,7 +116,7 @@ class _Mathematics2 extends State<Mathematics2> {
                   "Line, Surface and Volume Integrals. Theorems of Green, Gauss and Stokes (without proofs) and their applications. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),

@@ -32,7 +32,7 @@ class _EG extends State<EG> {
                   "Principles of Engineering Graphics and their Significance, Conic Sections including the Rectangular Hyperbola – General method only. Cycloid, Epicycloid and Hypocycloid, Scales – Plain & Diagonal",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _EG extends State<EG> {
                   "Principles of Orthographic Projections – Conventions – Projections of Points and Lines, Projections of Plane regular geometric figures. Auxiliary Planes.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -74,7 +74,7 @@ class _EG extends State<EG> {
                   "Projections of Regular Solids – Auxiliary Views - Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone – Auxiliary views – Sections of Sphere ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _EG extends State<EG> {
                   "Development of Surfaces of Right Regular Solids – Prism, Cylinder, Pyramid and Cone, Intersection of Solids: Intersection of – Prism vs Prism- Cylinder Vs Cylinder ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -116,7 +116,7 @@ class _EG extends State<EG> {
                   "Principles of Isometric Projection – Isometric Scale – Isometric Views – Conventions – Isometric Views of Lines, Plane Figures, Simple and Compound Solids – Isometric Projection of objects having non- isometric lines. Isometric Projection of Spherical Parts. Conversion of Isometric Views to Orthographic Views and Vice-versa –Conventions Introduction to CAD: (For Internal Evaluation Weightage only): Introduction to CAD Software Package Commands. - Free Hand Sketches of 2D- Creation of 2D Sketches by CAD Package",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),

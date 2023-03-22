@@ -31,7 +31,7 @@ child: Text(
 "Introduction to Ad Hoc Networks - Characteristics of MANETs, Applications of MANETs and Challenges of MANETs. Routing in MANETs - Criteria for classification, Taxonomy of MANET routing algorithms, Topologybased routing algorithms-Proactive: DSDV; Reactive: DSR, AODV; Hybrid: ZRP; Position-based routing algorithms-Location Services-DREAM, Quorum-based; Forwarding Strategies: Greedy Packet, Restricted Directional Flooding-DREAM, LAR.",
 style: TextStyle(
 fontSize: 20,
-color: Colors.white,
+color: Colors.black,
 ),
 ),
 ),
@@ -52,7 +52,7 @@ child: Text(
 "Data Transmission - Broadcast Storm Problem, Rebroadcasting Schemes-Simple-flooding, Probability-based Methods, Area-based Methods, Neighbor Knowledge-based: SBA, Multipoint Relaying, AHBP. Multicasting: Tree-based: AMRIS, MAODV; Mesh-based: ODMRP, CAMP; Hybrid: AMRoute, MCEDAR.",
 style: TextStyle(
 fontSize: 20,
-color: Colors.white,
+color: Colors.black,
 ),
 ),
 ),
@@ -73,7 +73,7 @@ child: Text(
 "Geocasting: Data-transmission Oriented-LBM; Route Creation Oriented-GeoTORA, MGR. TCP over Ad Hoc TCP protocol overview, TCP and MANETs, Solutions for TCP over Ad hoc  ",
 style: TextStyle(
 fontSize: 20,
-color: Colors.white,
+color: Colors.black,
 ),
 ),
 ),
@@ -94,7 +94,7 @@ child: Text(
 "Basics of Wireless, Sensors and Lower Layer Issues: Applications, Classification of sensor networks, Architecture of sensor network, Physical layer, MAC layer, Link layer, Routing Layer.",
 style: TextStyle(
 fontSize: 20,
-color: Colors.white,
+color: Colors.black,
 ),
 ),
 ),
@@ -115,7 +115,7 @@ child: Text(
 "Upper Layer Issues of WSN: Transport layer, High-level application layer support, Adapting to the inherent dynamic nature of WSNs, Sensor Networks and mobile robots.",
 style: TextStyle(
 fontSize: 20,
-color: Colors.white,
+color: Colors.black,
 ),
 ),
 ),

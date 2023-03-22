@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Mathematics2 extends StatefulWidget {
-  const Mathematics2({Key? key}) : super(key: key);
+class OB extends StatefulWidget {
+  const OB({Key? key}) : super(key: key);
 
   @override
-  _Mathematics2 createState() => _Mathematics2();
+  _OB createState() => _OB();
 }
-class _Mathematics2 extends State<Mathematics2> {
+class _OB extends State<OB> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class _Mathematics2 extends State<Mathematics2> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'UNIT-I:First Order ODE',
+                'UNIT-I:',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -29,15 +29,15 @@ class _Mathematics2 extends State<Mathematics2> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Exact, linear and Bernoulli’s equations; Applications : Newton’s law of cooling, Law of natural growth and decay; Equations not of first degree: equations solvable for p, equations solvable for y, equations solvable for x and Clairaut’s type.",
+                  "Introduction to OB - Definition, Nature and Scope – Environmental and organizational context – Impact of IT, globalization, Diversity, Ethics, culture, reward systems and organizational design on Organizational Behaviour. Cognitive Processes-I: Perception and Attribution: Nature and importance of Perception – Perceptual selectivity and organization – Social perception – Attribution Theories – Locus of control –Attribution Errors –Impression Management.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),
               Text(
-                'UNIT-II: Ordinary Differential Equations of Higher Order ',
+                'UNIT-II:  ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -50,15 +50,15 @@ class _Mathematics2 extends State<Mathematics2> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Second order linear differential equations with constant coefficients: Non-Homogeneous terms of the type ݁௔௫ , sinܽݔ , cos ܽݔ ,polynomials in ݔ݁ , ௔௫ܸ(ݔ (and ݔ)ܸ ݔ ;(method of variation of parameters; Equations reducible to linear ODE with constant coefficients: Legendre’s equation, Cauchy-Euler equation.",
+                  "Cognitive Processes-II: Personality and Attitudes – Personality as a continuum – Meaning of personality - Johari Window and Transactional Analysis - Nature and Dimension of Attitudes – Job satisfaction and organizational commitment-Motivational needs and processes- Work-Motivation Approaches Theories of Motivation- Motivation across cultures - Positive organizational behaviour: Optimism – Emotional intelligence – Self-Efficacy.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),
               Text(
-                'UNIT-III:Multivariable Calculus (Integration)  ',
+                'UNIT-III:  ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -71,15 +71,15 @@ class _Mathematics2 extends State<Mathematics2> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Evaluation of Double Integrals (Cartesian and polar coordinates); change of order of integration (only Cartesian form); Evaluation of Triple Integrals: Change of variables (Cartesian to polar) for double and (Cartesian to Spherical and Cylindrical polar coordinates) for triple integrals. Applications: Areas (by double integrals) and volumes (by double integrals and triple integrals), Centre of mass and Gravity (constant and variable densities) by double and triple integrals (applications involving cubes, sphere and rectangular parallelopiped).",
+                  "Dynamics of OB-I: Communication – types – interactive communication in organizations – barriers to communication and strategies to improve the follow of communication - Decision Making: Participative decision-making techniques – creativity and group decision making. Dynamics of OB –II Stress and Conflict: Meaning and types of stress –Meaning and types of conflict - Effect of stress and intraindividual conflict - strategies to cope with stress and conflict. ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),
               Text(
-                'UNIT-IV:Vector Differentiation ',
+                'UNIT-IV: ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -92,15 +92,15 @@ class _Mathematics2 extends State<Mathematics2> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Vector point functions and scalar point functions. Gradient, Divergence and Curl. Directional derivatives, Tangent plane and normal line. Vector Identities. Scalar potential functions. Solenoidal and Irrotational vectors.",
+                  "Dynamics of OB –III Power and Politics: Meaning and types of power – empowerment - Groups Vs. Teams – Nature of groups – dynamics of informal groups – dysfunctions of groups and teams – teams in modern work place.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),
               Text(
-                'Unit-V: Vector Integration',
+                'Unit-V: ',
                 style: TextStyle(
                   fontSize: MediaQuery.of(context).size.width / 36,
                   fontWeight: FontWeight.bold,
@@ -113,10 +113,10 @@ class _Mathematics2 extends State<Mathematics2> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Line, Surface and Volume Integrals. Theorems of Green, Gauss and Stokes (without proofs) and their applications. ",
+                  "Leading High performance: Job design and Goal setting for High performance- Quality of Work LifeSocio technical Design and High-performance work practices - Behavioural performance management: reinforcement and punishment as principles of Learning –Process of Behavioural modification - Leadership theories - Styles, Activities and skills of Great leaders.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                 ),
               ),

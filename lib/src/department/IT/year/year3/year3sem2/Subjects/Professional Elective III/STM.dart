@@ -33,7 +33,7 @@ class _STM extends State<STM> {
                   "",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -54,7 +54,7 @@ class _STM extends State<STM> {
                   "",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -75,7 +75,7 @@ class _STM extends State<STM> {
                   " ",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -96,7 +96,7 @@ class _STM extends State<STM> {
                   "",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -117,7 +117,7 @@ class _STM extends State<STM> {
                   "",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),

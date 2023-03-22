@@ -32,7 +32,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
                   "Introduction to quantum physics, Black body radiation, Planck’s law, Photoelectric effect, Compton effect, de-Broglie’s hypothesis, Wave-particle duality, Davisson and Germer experiment, Heisenberg’s Uncertainty principle, Born’s interpretation of the wave function, Schrodinger’s time independent wave equation, Particle in one dimensional box.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
                   "Intrinsic and Extrinsic semiconductors, Dependence of Fermi level on carrier-concentration and temperature, Carrier generation and recombination, Carrier transport: diffusion and drift, Hall effect, pn junction diode, Zener diode and their V-I Characteristics, Bipolar Junction Transistor (BJT): Construction, Principle of operation.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -74,7 +74,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
                   "Radiative and non-radiative recombination mechanisms in semiconductors, LED and semiconductor lasers: Device structure, Materials, Characteristics and figures of merit, Semiconductor photodetectors: Solar cell, PIN and Avalanche and their structure, Materials, working principle and Characteristics",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
                   "Lasers: Introduction to interaction of radiation with matter, Coherence, Principle and working of Laser, Population inversion, Pumping, Types of Lasers: Ruby laser, Carbon dioxide (CO2) laser, He-Ne laser, Applications of laser. Fibre Optics: Introduction, Optical fibre as a dielectric wave guide, Total internal reflection, Acceptance angle, Acceptance cone and Numerical aperture, Step and Graded index fibres,  Losses associated with optical fibres, Applications of optical fibres.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
@@ -116,7 +116,7 @@ class _AppliedPhysics extends State<AppliedPhysics> {
                   "Laws of electrostatics, Electric current and the continuity equation, Ampere’s and Faraday’s laws, Maxwell’s equations, Polarisation, Permittivity and Dielectric constant, Internal fields in a solid, Clausius-Mossotti equation, Ferroelectrics and Piezoelectrics. Magnetisation, permeability and susceptibility, Classification of magnetic materials, Ferromagnetism and ferromagnetic domains, Hysteresis, Applications of magnetic materials.",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ),
