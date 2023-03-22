@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class BEFA extends StatefulWidget {
-  const BEFA({Key? key}) : super(key: key);
+class LNC extends StatefulWidget {
+  const LNC({Key? key}) : super(key: key);
 
   @override
-  _BEFA createState() => _BEFA();
+  _LNC createState() => _LNC();
 }
-class _BEFA extends State<BEFA> {
+class _LNC extends State<LNC> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class DBMS extends StatefulWidget {
-  const DBMS({Key? key}) : super(key: key);
+class LICA extends StatefulWidget {
+  const LICA({Key? key}) : super(key: key);
 
   @override
-  _DBMS createState() => _DBMS();
+  _LICA createState() => _LICA();
 }
-class _DBMS extends State<DBMS> {
+class _LICA extends State<LICA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

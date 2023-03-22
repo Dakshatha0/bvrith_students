@@ -24,54 +24,54 @@ class _yearOfFirstYearSubjectsState extends State<secondYearSecondSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => BEFA()));
+                  MaterialPageRoute(builder: (context) => ADC()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("BEFA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("ADC",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DBMS()));
+                  MaterialPageRoute(builder: (context) => ECA()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("DBMS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("ECA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DM()));
+                  MaterialPageRoute(builder: (context) => EFW()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("DM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("EFW",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => Java()));
+                  MaterialPageRoute(builder: (context) => LICA()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Java",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("LICA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ), ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => OS()));
+                  MaterialPageRoute(builder: (context) => LNC()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,

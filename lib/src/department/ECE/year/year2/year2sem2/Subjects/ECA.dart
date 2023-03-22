@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class OS extends StatefulWidget {
-  const OS({Key? key}) : super(key: key);
+class ECA extends StatefulWidget {
+  const ECA({Key? key}) : super(key: key);
 
   @override
-  _OS createState() => _OS();
+  _ECA createState() => _ECA();
 }
-class _OS extends State<OS> {
+class _ECA extends State<ECA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

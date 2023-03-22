@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Java extends StatefulWidget {
-  const Java({Key? key}) : super(key: key);
+class EFW extends StatefulWidget {
+  const EFW({Key? key}) : super(key: key);
 
   @override
-  _Java createState() => _Java();
+  _EFW createState() => _EFW();
 }
-class _Java extends State<Java> {
+class _EFW extends State<EFW> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

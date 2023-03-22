@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class DM extends StatefulWidget {
-  const DM({Key? key}) : super(key: key);
+class ADC extends StatefulWidget {
+  const ADC({Key? key}) : super(key: key);
 
   @override
-  _DM createState() => _DM();
+  _ADC createState() => _ADC();
 }
-class _DM extends State<DM> {
+class _ADC extends State<ADC> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
