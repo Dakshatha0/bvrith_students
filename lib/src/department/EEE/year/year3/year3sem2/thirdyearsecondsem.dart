@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CD.dart';
-import 'Subjects/DAA.dart';
-import 'Subjects/ML.dart';
+import 'Subjects/PSP.dart';
+import 'Subjects/MM.dart';
+import 'Subjects/SS.dart';
+import 'Subjects/PSOC.dart';
 
 class thirdYearSecondSemSubjects extends StatefulWidget {
   const thirdYearSecondSemSubjects({Key? key}) : super(key: key);
@@ -22,38 +23,50 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearSecondSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CD()));
+                  MaterialPageRoute(builder: (context) => PSP()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Compiler Design",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Power System Protection",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DAA()));
+                  MaterialPageRoute(builder: (context) => PSOC()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("DAA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Power System Operation and Control ",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => ML()));
+                  MaterialPageRoute(builder: (context) => MM()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Machine Learning",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Microprocessors & Microcontrollers",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          ),
+          ElevatedButton(
+            onPressed: (){
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => SS()));
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
+            ),
+            child: Text("Signals and Systems",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),

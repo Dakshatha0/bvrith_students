@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CNS.dart';
-import 'Subjects/Data Mining.dart';
+import 'Subjects/FME.dart';
+
 
 class fourthYearFirstSemSubjects extends StatefulWidget {
   const fourthYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -21,27 +21,16 @@ class _yearOfFirstYearSubjectsState extends State<fourthYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CNS()));
+                  MaterialPageRoute(builder: (context) => FME()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("CNS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("FME",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
-          ElevatedButton(
-            onPressed: (){
-              Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => DataMining()));
-            },
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.white,
-              padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
-            ),
-            child: Text("Data Mining",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
-          ),
+
 
         ],
       )),

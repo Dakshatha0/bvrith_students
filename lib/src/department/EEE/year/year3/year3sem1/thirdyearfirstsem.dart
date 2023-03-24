@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CN.dart';
-import 'Subjects/FLAT.dart';
-import 'Subjects/SE.dart';
-import 'Subjects/WT.dart';
+import 'Subjects/BEFA.dart';
+import 'Subjects/PE.dart';
+import 'Subjects/MI.dart';
+import 'Subjects/PS2.dart';
 
 class thirdYearFirstSemSubjects extends StatefulWidget {
   const thirdYearFirstSemSubjects({Key? key}) : super(key: key);
@@ -23,50 +23,50 @@ class _yearOfFirstYearSubjectsState extends State<thirdYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CN()));
+                  MaterialPageRoute(builder: (context) => BEFA()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Computer Networks",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("BEFA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => FLAT()));
+                  MaterialPageRoute(builder: (context) => MI()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Formal Languages and Automata Theory",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("MI",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => SE()));
+                  MaterialPageRoute(builder: (context) => PE()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Software Engineering",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("PE",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => WT()));
+                  MaterialPageRoute(builder: (context) => PS2()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("Web Technologies",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("PS2",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
         ],
       )),

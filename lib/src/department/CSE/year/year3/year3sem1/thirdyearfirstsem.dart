@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/CN.dart';
 import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/FLAT.dart';
-// import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/SE.dart';
+// import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/MI.dart';
 import 'package:bvrith_students/src/department/CSE/year/year3/year3sem1/Subjects/WT.dart';
 
 import '../../../../CSE AI-ML/year/year3/year3sem1/Subjects/FLAT.dart';
