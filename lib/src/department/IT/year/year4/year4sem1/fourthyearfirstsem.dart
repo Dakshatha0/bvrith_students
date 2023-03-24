@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Subjects/CNS.dart';
+import 'Subjects/IS.dart';
 import 'Subjects/Data Mining.dart';
 
 class fourthYearFirstSemSubjects extends StatefulWidget {
@@ -21,14 +21,14 @@ class _yearOfFirstYearSubjectsState extends State<fourthYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => CNS()));
+                  MaterialPageRoute(builder: (context) => IS()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("CNS",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("Information Security",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){

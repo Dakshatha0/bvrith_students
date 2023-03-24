@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class DataMining extends StatefulWidget {
-  const DataMining({Key? key}) : super(key: key);
+class OB extends StatefulWidget {
+  const OB({Key? key}) : super(key: key);
 
   @override
-  _DataMining createState() => _DataMining();
+  _OB createState() => _OB();
 }
-class _DataMining extends State<DataMining> {
+class _OB extends State<OB> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,9 +29,8 @@ class _DataMining extends State<DataMining> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Data Mining: Data–Types of Data–, Data Mining Functionalities– Interestingness Patterns– Classification of Data Mining systems– Data mining Task primitives –Integration of Data mining system with a Data warehouse–Major issues in Data Mining–Data Preprocessing.",
-                  style: TextStyle(
-                    fontSize: 20,
+                  "Introduction to OB - Definition, Nature and Scope – Environmental and organizational context – Impact of IT, globalization, Diversity, Ethics, culture, reward systems and organizational design onOrganizational Behaviour. Cognitive Processes-I: Perception and Attribution: Nature and importance of Perception – Perceptual selectivity and organization – Social perception – Attribution Theories – Locus of control –Attribution Errors –Impression Management.", style: TextStyle(
+                     fontSize: 20,
                     color: Colors.black,
                   ),
                 ),
@@ -50,8 +49,7 @@ class _DataMining extends State<DataMining> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Association Rule Mining: Mining Frequent Patterns–Associations and correlations – Mining Methods– Mining Various kinds of Association Rules– Correlation Analysis– Constraint based Association mining. Graph Pattern Mining, SPM.",
-                  style: TextStyle(
+                  "Cognitive Processes-II: Personality and Attitudes – Personality as a continuum – Meaning of personality  - Johari Window and Transactional Analysis - Nature and Dimension of Attitudes – Job satisfaction and organizational commitment-Motivational needs and processes- Work-Motivation Approaches Theories of Motivation- Motivation across cultures - Positive organizational behaviour: Optimism – Emotional intelligence – Self-Efficacy.", style: TextStyle(
                     fontSize: 20,
                     color: Colors.black,
                   ),
@@ -71,8 +69,7 @@ class _DataMining extends State<DataMining> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Classification: Classification and Prediction – Basic concepts–Decision tree induction–Bayesian classification, Rule–based classification, Lazy learner",
-                  style: TextStyle(
+                  "Dynamics of OB-I: Communication – types – interactive communication in organizations – barriers to communication and strategies to improve the follow of communication - Decision Making: Participative decision-making techniques – creativity and group decision making. Dynamics of OB –II Stress and Conflict: Meaning and types of stress –Meaning and types of conflict - Effect of stress and intraindividual conflict - strategies to cope with stress and conflict.",style: TextStyle(
                     fontSize: 20,
                     color: Colors.black,
                   ),
@@ -92,8 +89,7 @@ class _DataMining extends State<DataMining> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Clustering and Applications: Cluster analysis–Types of Data in Cluster Analysis–Categorization of Major Clustering Methods– Partitioning Methods, Hierarchical Methods– Density–Based Methods, Grid–Based Methods, Outlier Analysis.",
-                  style: TextStyle(
+                  "Dynamics of OB –III Power and Politics: Meaning and types of power – empowerment - Groups Vs. Teams – Nature of groups – dynamics of informal groups – dysfunctions of groups and teams – teams in modern work place.",style: TextStyle(
                     fontSize: 20,
                     color: Colors.black,
                   ),
@@ -113,8 +109,7 @@ class _DataMining extends State<DataMining> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  "Advanced Concepts: Basic concepts in Mining data streams–Mining Time–series data––Mining sequence patterns in Transactional databases– Mining Object– Spatial– Multimedia–Text and Web data – Spatial Data mining– Multimedia Data mining–Text Mining– Mining the World Wide Web.",
-                  style: TextStyle(
+                  "Leading High performance: Job design and Goal setting for High performance- Quality of Work LifeSocio technical Design and High-performance work practices - Behavioural performance management: reinforcement and punishment as principles of Learning –Process of Behavioural modification - Leadership theories - Styles, Activities and skills of Great leaders.", style: TextStyle(
                     fontSize: 20,
                     color: Colors.black,
                   ),
