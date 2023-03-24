@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Subject/ADE.dart';
 import 'Subject/C++.dart';
-import 'Subject/COA.dart';
+import 'Subject/COM.dart';
 import 'Subject/COSM.dart';
 import 'Subject/DS.dart';
 
@@ -48,14 +48,14 @@ class _yearOfFirstYearSubjectsState extends State<secondYearFirstSemSubjects> {
           ElevatedButton(
             onPressed: (){
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => COA()));
+                  MaterialPageRoute(builder: (context) => COM()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               padding: EdgeInsets.symmetric(vertical: 8,horizontal: 60),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30))),
             ),
-            child: Text("COA",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+            child: Text("COM",style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: (){
